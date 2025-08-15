@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>7</id>
+		<name>Emploers</name>
+		<table_name>emploers</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>7</id>
+			<lid>ru</lid>
+			<name>Кадровый состав</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>273</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_QUALIFICATION</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>90</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>80</size>
+				<rows>3</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Сведения о повышении квалификации (за последние 3 года)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>237</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_PROFDEVELOPMENT</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>95</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>5</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Сведения о профессиональной переподготовке (при наличии)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>229</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_FIO</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Фамилия, имя, отчество</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>230</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_POST</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Занимаемая должность </ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>231</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_TEACHINGDISCIPLIN</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>5</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Преподаваемые учебные предметы, курсы, дисциплины (модули)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>232</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_TEACHINGLEVEL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>2</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Уровень (уровни) профессионального образования с указанием наименования направления подготовки и (или) специальности, в том числе научной</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>233</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_TEACHINGQUAL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Квалификация</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>234</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_EMPLOYEEQUALIFICA</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Наименование направления подготовки и (или) специальности, в том числе научной</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>235</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_DEGREE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Ученая степень</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>236</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_ACADEMSTAT</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Ученое звание</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>238</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_GENEXPERIENCE</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Общий стаж работы (месяцев)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>239</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_SPECEXPERIENCE</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Стаж работы по специальности (сведения о продолжительности опыта (лет) работы в профессиональной сфере, соответствующей образовательной деятельности по реализации учебных предметов, курсов, дисциплин (модулей) [месяцы]</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>240</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_TEACHINGOP</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>N</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>3</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Наименование образовательных программ, в реализации которых участвует педагогический работник</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>241</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_MEDEXPERIENCE</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Медицинский стаж (месяцев)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>242</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_CHILDEXPERIENCE</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Педагогический стаж (с детьми до 18 лет) [месяцев]</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>243</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_EMAIL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>eMail</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>245</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_PPS</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>1</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Преподаватель</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>246</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_NIR</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Научный работник</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>247</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_ACTIVE</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>1</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Активен</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>248</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_HI_STAFF</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Высший руководитель организации</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>249</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_HI_ZAM</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Заместитель руководителя образовательной организации</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>250</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_PERSONAL_URL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Персональная URL страница</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>258</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_PHONE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Телефон</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>270</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_SPECEXPERIENCE_B</field_name>
+			<user_type_id>date</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NONE</type>
+					<value />
+				</default_value>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Дата начала стажа по специальности</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+		<field>
+			<id>271</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_GENEXPERIENCE_B</field_name>
+			<user_type_id>date</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NONE</type>
+					<value />
+				</default_value>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Дата начала трудовой деятельности</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+	</fields>
+</hiblock>

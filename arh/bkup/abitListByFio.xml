@@ -1,0 +1,2946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>4</id>
+		<name>AbitListByFio</name>
+		<table_name>abit_list_by_fio</table_name>
+	</hiblock>
+	<langs>
+	</langs>
+	<fields>
+		<field>
+			<id>57</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_USER_ID</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>58</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_USER_FIO</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>59</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_SPEC</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>60</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_SPEC_KOD</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>61</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_FORM</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>62</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_STATUS</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>63</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_OSNOVA</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>64</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_DOCUM</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>65</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_AUTO</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>1</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>66</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_CAMPUS</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>1</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>67</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_LEVEL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>68</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_EXAMS</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>69</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_BALL</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>70</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_PRIOR</field_name>
+			<user_type_id>double</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<precision>4</precision>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value>0</default_value>
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>double</base_type>
+		</field>
+		<field>
+			<id>71</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_BALL_INFO</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>72</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_FACULTY</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>73</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_OTKAZ</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>74</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_GROUP</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>75</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_VIP</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>1</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>76</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_PRIKAZ</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>77</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_KATEGOR</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>78</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_PRKOM_BEG</field_name>
+			<user_type_id>date</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NONE</type>
+					<value />
+				</default_value>
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+		<field>
+			<id>79</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_PRKOM_END</field_name>
+			<user_type_id>date</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NONE</type>
+					<value />
+				</default_value>
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+		<field>
+			<id>80</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_OTHER_COURCE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>81</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_ITOG</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>82</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_GOD</field_name>
+			<user_type_id>double</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<precision>4</precision>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value>0</default_value>
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>double</base_type>
+		</field>
+		<field>
+			<id>83</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_MODIFY</field_name>
+			<user_type_id>datetime</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NONE</type>
+					<value />
+				</default_value>
+				<use_second>Y</use_second>
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+		<field>
+			<id>84</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_NUMBER_ZAYAV</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>85</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_DATA_ZAYAV</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>86</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_SORT</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>87</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_INDOCS</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>88</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_OUTDOCS</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>89</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_K_GROUP</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>90</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_K_GROUP_KOD</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>91</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_SNILS</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>92</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_PRIKAZ_GUID</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>93</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_LDELO</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>94</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_VIP_PRAVO</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>95</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_UGROUP</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>96</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_VKON</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>1</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Участие в конкурсе</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+	</items>
+</hiblock>

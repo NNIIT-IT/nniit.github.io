@@ -1,0 +1,20 @@
+.eduAccredTable {
+border: solid thin lightgray;
+border-collapse: collapse;
+font-size: 0.85em;
+overflow: auto;
+display: block;
+width:100%;
+font-weight:400;
+line-height: 1.1em;
+}
+.eduAccredTable th {font-size: 0.9em;}
+.smallH1{font-size:1.2em;font-weight:600;line-height: 1.2em;}
+.eduAccredTable tr:nth-child(2n){background-color: #bdbdbd08;}
+.eduAccredTable th {border: solid thin lightgray;padding: 3px;   }
+.eduAccredTable thead th {background-color: #b0b0b01a;font-weight:400;text-align:center; vertical-align:middle;}
+.eduAccredTable tbody .oppheader {background-color: #f4feff;font-size:1em;}
+.eduAccredTable tbody th {background-color: #b0b0b01a;font-weight:400;text-align:center; vertical-align:middle;}
+.eduAccredTable td {border: solid thin lightgray;padding: 3px;}
+.eduAccredTable td:nth-of-type(1) {text-align:center;}
+

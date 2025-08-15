@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Сергей Александрович Яцуков</Author>
+  <LastAuthor>Сергей Александрович Яцуков</LastAuthor>
+  <Created>2023-11-22T10:21:58Z</Created>
+  <Company>diakov.net</Company>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12090</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#F9F9F9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#F9F9F9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#F9F9F9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#F9F9F9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#DDDDDD"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="31.02.06">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="19" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row ss:Height="95.25">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Фамилия, имя, отчество (при наличии)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Занимаемая должность (должности)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Преподаваемые учебные предметы, курсы, дисциплины (модули)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Уровень образования</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Квалификация</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Учёная степень (при наличии)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Учёное звание (при наличии)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Наименование направления подготовки и (или) специальности</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Повышение квалификации и (или) профессиональная переподготовка (при наличии)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Общий стаж работы</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Стаж работы по специальности</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Шеплев Борис Валентинович</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Ректор ЧОУ ВО «НМСИ ДЕНТМАСТЕР» ; (штатный); Профессор ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (по внутреннему совместительству)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Анатомия и физиология человека ; Стоматологические заболевания; Основы патологии; Общественное здоровье и здравоохранение; Итоговая аттестация</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет; Интернатура «Стоматология»; </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Врач-стоматолог; Врач-стоматолог</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Доктор медицинских наук</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Стоматология; Стоматология</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">40 лет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">5 лет</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Папенко Татьяна Михайловна</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Декан стоматологического факультета ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (штатный); </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Итоговая аттестация</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет; Ординатура «Стоматология терапевтическая» </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Врач-стоматолог; Врач-стоматолог-терапевт</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Кандидат медицинских наук</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Стоматология; Стоматология терапевтическая</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); «Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия» (36 ч, 10.10.2020); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">21 год</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">5 лет </Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Черненок Наталья Геннадьевна</Data></Cell>
+    <Cell ss:StyleID="s67"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Доцент ЧОУ ВО «НМСИ ДЕНТМАСТЕР» </Font><Font
+       html:Color="#000000">(на условиях гражданско-правового договора)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Психология общения; </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Инженер-педагог</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Кандидат педагогических наук</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Профессиональное обучение и технические дисциплины</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">17 лет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">11 лет</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Фомин Андрей Геннадьевич</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР» (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Иностранный язык в профессиональной деятельности; Основы латинского языка с медицинской терминологией; </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Филолог, преподаватель английского языка и литературы</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">доктор филологических наук</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">профессор</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Филология</Data></Cell>
+    <Cell ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); «Особенности инклюзивного образования в вузе» (72 ч, 15.02.2019); </Font><Font
+       html:Face="Times New Roman" x:CharSet="204" x:Family="Roman"
+       html:Color="#000000">Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">31 лет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">31 лет</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ермолаев Алексей Николаевич</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">История России</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Историк, преподаватель</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Доктор исторических наук</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Доцент</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">История</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Удостоверение о повышении квалификации № 447 от 26.06.2020 г. по программе «Навыки оказания первой помощи», 24 час., ФГБОУ ВО &quot;Кемеровский государственный университет&quot; ; Удостоверение о повышении квалификации № 181121142424 от 18.11.2021 г. по программе «Педагогическая деятельность в цифровой образовательной среде», 16 час., ФГБОУ ВО &quot;Кемеровский государственный университет&quot; ; Удостоверение о повышении квалификации № 161221142560 от 16.12.2021 г. по программе «Особенности инклюзивного образования в вузе (36 ч.)», 36 час., ФГБОУ ВО &quot;Кемеровский государственный университет&quot; ; Удостоверение о повышении квалификации № 031122142147 от 03.11.2022 г. по программе «ИКТ в электронной информационно-образовательной среде (24 ч.)», 24 час., ФГБОУ ВО &quot;Кемеровский ; государственный университет&quot; </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">16 лет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">16 лет</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Зубков Валерий Витальевич</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Безопасность жизнедеятельности; Обеспечение безопасной окружающей среды в медицинской организации; </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Инженер-гидротехник</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Гидротехническое строительство</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Удостоверение о повышении квалификации № 36 от 03.10.2022 «Обучение и проверка знаний по охране труда работников образовательных организаций», НП «ЦПО «ДентМастер»; «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">2 года</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">2 года</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Тикунова Нина Викторовна</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Основы микробиологии инфекционная безопасность; Биомедицинская этика; </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Микробиолог</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Доктор биологических наук</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Биология</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">38 лет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">38 лет</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Иванова Светлана Юрьевна</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Физическая культура; </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Преподаватель, тренер</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Кандидат педагогических наук</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Доцент</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Физическая культура и спорт</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Удостоверение о повышении квалификации № 2323296626SI от 24.12.2021 г. по программе «К успешной карьере через цифровую гигиену и информационный стресс-менеджмент», ; 72 час., ФГБОУ ВО &quot;Тюменский государственный университет&quot;; Удостоверение о повышении квалификации № 2205959059SI от 27.12.2021 г. по программе «Практическая психология», ; 36 час., ФГБОУ ВО &quot;Тюменский государственный университет&quot; ; Удостоверение о повышении квалификации № 236 от 04.05.2022 г. по программе «Охрана труда (40 ч.)», 40 час., ФГБОУ ВО &quot;Кемеровский государственный университет&quot; ; Удостоверение о повышении квалификации № 070423142017 от 10.04.2023 г. по программе «Современные образовательные технологии и методы оценки, андрагогика высшего медицинского образования», ; 72 час., ФГБОУ ВО &quot;Кемеровский государственный университет&quot;; Удостоверение о повышении квалификации № 722023003353 от 26.05.2023 г. по программе «Введение в игровые технологии в высшем образовании», 24 час., ФГБОУ ВО &quot;Тюменский государственный университет&quot;; Удостоверение о повышении квалификации № 280623142016 от 28.06.2023 г. по программе «Университетское управление в контексте неопределенности: основы программирования и практики развития», 16 час., ФГБОУ ВО &quot;Кемеровский государственный университет&quot;</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">20 лет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">16 лет</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ткачев Павел Сергеевич</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Основы цифровой медицины; Информационные технологии в профессиональной деятельности; Основы бережливого производства; Основы финансовой грамотности</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Экономист-менеджер</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Кандидат философских наук</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Экономика и управление на предприятии туризма и гостиничного хозяйства </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Профессиональная переподготовка «Преподаватель информационных систем и технологий», регистрационный номер 0011, от 15.01.2019 г., ЧУ ВО «Высшая школа предпринимательства (институт); «Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">10 лет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">10 лет</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Беласик Ольга Александровна</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Организация трудовой деятельности и ведение медицинской документации; Оказание медицинской помощи в экстренной форме; Учебная практика по оказанию медицинской помощи в экстренной форме; Производственная практика по выполнению организационно-технологических процедур при оказании первичной доврачебной медико-санитарной помощи по профилактике стоматологических заболеваний; Экзамен по профессиональному модулю ; Итоговая аттестация</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование – бакалавриат; Среднее профессиональное образование</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Менеджмент; Сестринское дело</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Менеджмент; Медицинская сестра</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">3 года</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">3 года</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Гатилова Татьяна Андреевна</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Преподаватель ЧОУ ВО НМСИ ДЕНТМАСТЕР (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Гигиена с экологией человека; Итоговая аттестация</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет; Интернатура «Стоматология»; Ординатура «Челюстно-лицевая хирургия»</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Врач-стоматолог; Врач-стоматолог общей практики; Врач-челюстно-лицевой хирург</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Стоматология; Стоматология; Челюстно-лицевая хирургия </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия (36 ч., 17.02.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">5 лет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">5 лет</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Левщанов Дмитрий Анатольевич</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Преподаватель ЧОУ ВО НМСИ ДЕНТМАСТЕР (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Клиническое материаловедение; Итоговая аттестация</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет; Интернатура «Стоматология»</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Врач-стоматолог; Врач-стоматолог</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Стоматология; Стоматология</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Профессиональная переподготовка «Стоматология отртопедическая» от 25.11.2012, ФГБОУ ВПО НГМУ Минздравсоцразвития; «Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия (36 ч., 17.02.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">3 года</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">3 года</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Метельская Екатерина Александровна</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Фармакология</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет ; Интернатура </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Провизор; Врач (провизор)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Фармация; Управление и экономика фармации</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Сертификат специалиста «Управление и экономика фармации» от 12.10.2020 г, ФГБОУ ВО «Алтайский государственный медицинский университет»; «Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">2 года</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">2 года</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Щерба Алексей Владимирович</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Стоматологические заболевания и их профилактика; Современные методики и материалы в профилактике стоматологических заболеваний; Учебная практика по профилактике стоматологических заболеваний; Производственная практика по проведению диагностики и профилактики стоматологических заболеваний при оказании первичной доврачебной медико-санитарной помощи по профилактике стоматологических заболеваний; Экзамен по профессиональному модулю; Итоговая аттестация</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет; Интернатура «Стоматология»; Ординатура «Стоматология терапевтическая»</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Врач-стоматолог; Врач-стоматолог ; Врач-стоматолог-терапевт</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует </Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Стоматология; Стоматология; Стоматология терапевтическая</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">3 года</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">3 года</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Агаркова Ксения Вячеславовна</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Преподаватель ЧОУ ВО НМСИ ДЕНТМАСТЕР (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Гигиена полости рта; Учебная практика по осуществлению гигиены полости рта; Производственная практика по проведению индивидуальной профессиональной гигиены полости рта при оказании первичной доврачебной медико-санитарной помощи по профилактике стоматологических заболеваний; Экзамен по профессиональному модулю</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет; Интернатура «Стоматология»</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Врач-стоматолог; Врач-стоматолог общей практики</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Стоматология; Стоматология</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия (36 ч., 17.02.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">5 лет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">5 лет</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Минов Дмитрий Олегович</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Стоматологическое просвещение; Учебная практика по проведению стоматологического просвещения; Производственная практика по проведению санитарно-гигиенического просвещения в области профилактики стоматологических заболеваний; Экзамен по профессиональному модулю; Итоговая аттестация</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование-специалитет; Интернатура «Стоматология общей практики»</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Врач-стоматолог; Врач-стоматолог общей практики</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Стоматология ; Стоматология общей практики</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">8 лет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">3 года</Data></Cell>
+   </Row>
+   <Row ss:Height="410.25">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Бояринова Владислава Игоревна</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР» (на условиях внешнего совместительства)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Правовое обеспечение профессиональной деятельности</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Высшее образование- бакалавриат</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Юрист</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Кандидат юридических наук</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Отсутствует</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Юриспруденция</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">9 лет</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">4 года</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>14</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

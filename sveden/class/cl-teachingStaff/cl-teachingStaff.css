@@ -1,0 +1,81 @@
+.simpletable tbody, table-row{
+line-height: 1em;
+}
+.prepodHeadCell{
+font-weight: 600;
+font-size: 10px;
+display: table-cell;
+border: dotted thin gray;
+padding: 4px;
+text-align: center;
+vertical-align: middle;
+background-color: brown;
+
+}
+.prepodRowCell{
+font-weight: 200;
+font-size: 10px;
+display: table-cell;
+border: dotted thin gray;
+padding: 4px;
+text-align: left;
+vertical-align: top;
+word-wrap: break-word;
+overflow-wrap: break-word;
+line-height: 1em;
+}
+.prepodHeadCell{
+font-weight: 600;
+font-size: 11px;
+display: table-cell;
+border: solid thin gray;
+padding: 4px;
+text-align: center;
+vertical-align: middle;
+background-color: #009bdf2b;
+color: black;
+word-wrap: break-word;
+overflow-wrap: break-word;
+}
+.prepodRowCell{
+font-weight: 200;
+font-size: 10px;
+display: table-cell;
+border: solid thin gray;
+padding: 4px;
+text-align: left;
+vertical-align: top;
+word-wrap: break-word;
+overflow-wrap: break-word;
+}
+.prepodrow{display:table-row;}
+
+.emptycell{
+text-align: center;
+display: inline-block;
+width: 100%;
+}
+.pgbtn{
+	border: solid thin;
+	width: 1em;
+	display: inline-block;
+	text-align: center;
+	font-size: smaller;
+	padding: 4px 1px 1px 1px;
+}
+.pgbtn:hover{cursor: pointer;color: black;font-weight: 600;}
+.pgbtn1{
+	border: solid thin;
+	width: 1em;
+	display: inline-block;
+	text-align: center;
+	padding: 4px 1px 1px 1px;
+	font-size: 1.5em;
+}
+.pgbtn1:hover{cursor: pointer;color: #f00;font-weight: 400;}
+.hidden{
+display:none;
+}
+.maindocselementStaff .prepodRowCell{
+	font-size: 0.7em;
+}

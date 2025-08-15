@@ -1,0 +1,56 @@
+.opptable{
+/*width: 100%;*/
+min-width: 800px;
+border: solid thin lightgray;
+border-collapse: collapse;
+font-size:.85em;
+margin: 10px;
+}
+.educationAnnLeft{float:left;border-right: dotted thin gray;text-align: center;margin: 0;padding: 0;width: calc(50% - 2px);}
+.educationAnnRight{float:left;text-align: center;margin: 0;padding: 0;width: calc(50% - 2px);}
+.educationAnnLeft p, .educationAnnRight p{border-bottom: dotted thin gray;font-size: smaller;padding-bottom: 5px;}
+.opptable th {border: solid thin lightgray;font-weight: normal;padding: 3px;text-align:center; vertical-align:middle;}
+.opptable thead th {background-color: #b0b0b01a}
+.oppheader{background-color: #f4feff;}
+.opptable td {border: solid thin lightgray;padding: 3px;min-width: 6.5em;}
+
+.opptable td:nth-of-type(1) {text-align:center;}
+.opptable tbody td:nth-of-type(2) span:nth-of-type(2) {font-size: 0.9em;color:blue;}
+.oppfiles{background: url(/local/common/images/folder_close.gif)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-left: 1.7em;color: #009bdf;}
+.oppfiles:hover{cursor:pointer;text-decoration: underline;}
+.linkiconpdf{text-decoration:none !important;}
+
+.linkiconpdf:hover{
+	text-decoration: underline !important;
+	background: url(/local/common/icons/pdf.png) no-repeat 100% !important;
+	background-position-x: 0 !important;
+	background-position-y: center !important;
+	background-size: 16px !important;
+}
+.iconscript{
+display:block !important;
+	background-color: #20ff0026;
+padding: 2px !important;
+width: auto !important;
+float: right !important;
+border: #067d02 solid thin !important;
+border-radius: 5px !important;
+font-size: 50% !important;
+}
+/*
+.opptable th:nth-of-type(1) {width:200px;}
+.opptable th:nth-of-type(2) {width:75px;}
+.opptable th:nth-of-type(3) {width:175px;}
+.opptable th:nth-of-type(4) {width:175px;}
+.opptable th:nth-of-type(5) {width:175px;}
+.opptable th:nth-of-type(6) {width:175px;}
+.opptable th:nth-of-type(7) {width:175px;}
+.opptable th:nth-of-type(8) {width:175px;}
+.opptable th:nth-of-type(9) {width:175px;}
+.opptable th:nth-of-type(10) {width:175px;}
+.opptable th:nth-of-type(11) {width:175px;}
+
+.opptable td:nth-of-type(1) {width:200px;}
+.opptable td:nth-of-type(2) {width:75px;}
+.opptable td:nth-of-type(3) {width:175px;}
+*/

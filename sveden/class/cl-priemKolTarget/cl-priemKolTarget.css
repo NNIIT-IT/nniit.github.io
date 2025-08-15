@@ -1,0 +1,19 @@
+.priemVacantTable{
+width: 100%;
+overflow:auto;
+border: solid thin lightgray;
+border-collapse: collapse;
+font-size:1em;
+}
+.smallH1{font-size:1.2em;font-weight:600;line-height: 1.2em;}
+.priemVacantTable tr:nth-child(2n){background-color: #bdbdbd08;}
+.priemVacantTable th {border: solid thin lightgray;padding: 3px;}
+.priemVacantTable thead th {background-color: #b0b0b01a;font-weight:400;}
+.priemVacantTable tbody .oppheader {background-color: #f4feff;font-size:1em;}
+.priemVacantTable tbody th {background-color: #b0b0b01a;font-size:.9em;font-weight:200;}
+.priemVacantTable td {border: solid thin lightgray;padding: 3px;}
+.priemVacantTable td:nth-of-type(1) {text-align:center;}
+.priemVacantTable td:nth-of-type(n+3) {text-align:center;}
+.footnotes{vertical-align: super;font-size: 10px;font-weight: 600;color: blue;font-style: italic;padding: 2px;font-family: times;}
+.footnotes:hover{text-decoration: underline;}
+

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>12</id>
+		<name>InternationalDog</name>
+		<table_name>international_dog</table_name>
+	</hiblock>
+	<langs>
+	</langs>
+	<fields>
+		<field>
+			<id>218</id>
+			<entity_id>HLBLOCK_12</entity_id>
+			<field_name>UF_STATE_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>stateName</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>50</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru>Название государства</ru>
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru>Название государства</ru>
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru>Название государства</ru>
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>219</id>
+			<entity_id>HLBLOCK_12</entity_id>
+			<field_name>UF_ORG_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>orgName</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>2</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru>Наименование организации</ru>
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru>Наименование организации</ru>
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru>Наименование организации</ru>
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>220</id>
+			<entity_id>HLBLOCK_12</entity_id>
+			<field_name>UF_DOG_REG</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>dogReg</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>3</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru>Реквизиты договора (наименование, дата, номер, срок действия)</ru>
+				<th />
+				<ua />
+			</edit_form_label>
+			<list_column_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru>Реквизиты договора (наименование, дата, номер, срок действия)</ru>
+				<th />
+				<ua />
+			</list_column_label>
+			<list_filter_label>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</list_filter_label>
+			<error_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</error_message>
+			<help_message>
+				<br />
+				<en />
+				<fa />
+				<fr />
+				<la />
+				<lt />
+				<ru />
+				<th />
+				<ua />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>221</id>
+			<entity_id>HLBLOCK_12</entity_id>
+			<field_name>UF_MFILE</field_name>
+			<user_type_id>file</user_type_id>
+			<xml_id>UF_MFILE </xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<list_width>200</list_width>
+				<list_height>200</list_height>
+				<max_show_size>0</max_show_size>
+				<max_allowed_size>0</max_allowed_size>
+				<extensions />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Заключение минздрава России</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>file</base_type>
+		</field>
+		<field>
+			<id>222</id>
+			<entity_id>HLBLOCK_12</entity_id>
+			<field_name>UF_FILE_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Наименование заключения минздрава России</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>223</id>
+			<entity_id>HLBLOCK_12</entity_id>
+			<field_name>UF_ACTIVE</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>1</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Активен</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_state_name>Отсутствует</uf_state_name>
+			<uf_org_name>Отсутствует</uf_org_name>
+			<uf_dog_reg>Отсутствует</uf_dog_reg>
+			<uf_mfile>0</uf_mfile>
+			<uf_file_name />
+			<uf_active>1</uf_active>
+		</item>
+	</items>
+</hiblock>

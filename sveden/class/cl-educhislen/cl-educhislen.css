@@ -1,0 +1,12 @@
+.eduChislen{
+min-width: 800px;
+border: solid thin lightgray;
+border-collapse: collapse;
+font-size:.85em;
+}
+.eduChislen th {border: solid thin lightgray!important;font-weight: normal;padding: 3px;}
+.eduChislen thead th {background-color: #b0b0b01a}
+.eduChislen tbody th {background-color: #f4feff;}
+.eduChislen td {border: solid thin lightgray!important;padding: 3px;}
+.eduChislen td:nth-of-type(n+3) {text-align:center;}
+.eduChislen tbody td:nth-of-type(2) span:nth-of-type(2) {font-size: 0.9em;color:blue;}

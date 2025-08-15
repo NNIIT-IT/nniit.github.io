@@ -1,0 +1,24 @@
+.priemListLevelName{width: 100%;display: inline-block;background-color: aliceblue;text-align: center;padding: 5px;}
+.priemListRow{display:table-row;}
+.priemListTable{width: 100%;overflow:auto;}
+.priemListTableName{display: inline-block;}
+.priemListCell{display:table-cell;border: solid 1px #80808038;}
+.priemListEduName{text-align: left;background-color: #8080800a;width: 100%;display: inline-block;font-size: 1.1em;font-weight: 600; padding: 0.5em;}}
+.priemListEduName div{font-size:0.8em;}
+.priemListTable{background: url(/local/common/icons/table.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 1em;    padding-left: 2em;}}
+.priemListTableBody {font-size: 0.9em;padding: 1em;    overflow: scroll;   overflow:auto;height: 50vh;    width: 100%;}
+.priemListTableBody .priemListRow:first-child {background-color: #80808038;text-align:center;vertical-align: middle;padding: 10px;}
+.priemListTableBody .priemListRow:first-child .priemListCell{vertical-align: middle;padding: 10px;}
+.priemListTableBody .priemListRow:nth-child(n + 2) .priemListCell:nth-child(2){font-size:.9em;}
+.numberCell{text-align:center;}
+.priemListTableBody .priemListRow:nth-child(n + 2) .priemListCell:nth-child(n + 7){font-size:.9em;}
+.priemListInfo{vertical-align: super;font-size: 10px;font-weight: 600;color: blue;font-style: italic; padding: 2px; font-family: times;}
+.priemListfind{position: relative;height: 1em;width: 100%;}
+
+.priemListfind div {position: absolute;width: 1em;height: 1em;padding: 4px;}
+.priemListfind div img {width: 1.3em;height: 1.3em;}
+.priemListfind div:nth-child(1) {width: calc(100% - 30px);position: absolute;left: 0;top: 0;}
+.priemListfind div:nth-child(1) input {width: 100%;font-size: 16px;}
+.priemListfind div:nth-child(2) {right: 30px;    top: 3px;}
+.priemListfind div:nth-child(3) {width: 1.3em;height: 1.3em;right:-10px;}
+

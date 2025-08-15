@@ -1,0 +1,84 @@
+//if (!(typeof admregistration === "function")){
+	//function admregistration(){}
+	BX.ready(function(){
+	if($("#bx-panel-toggle").hasClass("bx-panel-toggle-on") && window.BX && BX.admin){
+			var dialogAdmin=new BX.CAdminDialog({'width':'952','height':'627'});
+			function showMyDlg(url){dialogAdmin.PARAMS.content_url=url;dialogAdmin.Show();}
+			$(".bx-core-popup-menu-item").remove();
+			$(".maindocselementHB").each(function(i,elem){$(this).addClass("bx-context-toolbar-empty-area");});
+			$(".maindocselementHB").on( "mouseover", 
+				function(){
+					ereaId=$(this)[0].id;
+					elId=$(this).attr("data-id");
+					block=$(this).attr("data-block");
+					prop=$(this).attr("data-prop");
+					if(prop==undefined){
+						prop="";
+					}
+					if(block==undefined){
+						block=$(this).parent().attr("data-block");
+					}
+					xmlid=$(this).attr("data-xmlid");
+					oppid=$(this).attr("data-opp");
+					nodel=$(this).attr("data-nodel")=="Y";
+
+					title=$(this).attr("title");
+					if(title=="")title=$(this).prop("title");
+					if(title=="")title="Элемент";	
+					url=$(this).attr("data-url");
+					if(url==undefined){
+						url=$(this).parent().attr("data-url");
+					}
+					if(url=="" || url==undefined) url=encodeURIComponent(window.location.pathname+window.location.search);
+					uflevel=$(this).attr("data-level");
+					showMenuiasmuinfoHB(ereaId,elId,block,title,xmlid,oppid,url,nodel,uflevel,prop);
+				}
+			);	
+			function showMenuiasmuinfoHB(ereaId,elId,block,title,xmlid,oppid,url,noModify,uflevel,prop){
+					sess=BX.bitrix_sessid();
+					Xlevel="";
+					if(prop!="") {prop="&prop="+prop;}else{prop="";}	
+					if(uflevel!="undefined"){Xlevel="&UF_LEVEL="+uflevel;} 
+					//UrlEditor="/bitrix/admin/highloadblock_row_edit.php?ENTITY_ID="+block+"&mode=list&ID="+elId+"&lang=ru&return_url="+url+Xlevel;
+					UrlEditor="/local/templates/.default/class/hbEdit.php?ENTITY_ID="+block+"&mode=list&lang=ru&return_url="+url+Xlevel+prop;
+					//dialogEditOb=new BX.CAdminDialog(
+					//	{'content_url':UrlEditor+"ENTITY_ID="+block+"&ID="+elId+"&lang=ru&mode=list&action=update&return_url="+url+Xlevel,'width':'952','height':'627'});
+					//dialogAddOb=new BX.CAdminDialog(
+					//	{'content_url':UrlEditor+"ENTITY_ID="+blockId+"&lang=ru&mode=list&props="+props+"&action=add&return_url="+url+Xlevel,'width':'952','height':'627'});
+					//dialogDelOb=new BX.CAdminDialog(
+					//{'content_url':UrlEditor+"ENTITY_ID="+blockId+"&ID="+elId+"&mode=list&action=delete&lang=ru&sessid="+sess+"&return_url="+url,'width':'952','height':'627'});
+					menu=[{
+						text: 'Добавить ',href: '#', className: 'menu-popup-item menu-popup-item-create',
+						onclick: function(e,item){
+							this.popupWindow.close();
+							showMyDlg(UrlEditor+"&action=add&ID=0");}
+					}];
+					if(nodel) {menu=[];}
+					if(elId>0){
+						menu.push({
+						text: 'Изменить '+title,href:'#',className:'menu-popup-item menu-popup-item-edit',
+						onclick:function(e,item){this.popupWindow.close();
+									showMyDlg(UrlEditor+"&action=update&ID="+elId);
+									//dialogEditOb.Show();
+								}
+						});
+						if(!nodel){
+							menu.push({
+							text: 'Удалить '+title,href:'#',className:'menu-popup-item menu-popup-item-edit',
+							onclick:function(e,item){
+								this.popupWindow.close();
+								if(confirm('Удалить '+title+'?')){
+									top.location.href=UrlEditor+"&ID="+elId+"&action=delete&sessid="+sess;
+								//dialogDelOb.Show();
+								}
+							}
+							});
+						}
+					};
+
+					BX.PopupMenu.show('menu'+ereaId, BX(ereaId),menu,{autoHide:true,offsetTop:-13,zIndex:10000,offsetLeft:20,angle:{offset:0}});
+				
+			}
+	}
+});
+//}

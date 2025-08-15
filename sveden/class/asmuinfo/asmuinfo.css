@@ -1,0 +1,54 @@
+
+.hidedivlink, .linkicon {
+background: url(/local/templates/bitrix-dental/images/folder_close.gif)  no-repeat 100%; padding-left:2em;margin-left:0em;background-size: 1.3em;background-position: left; }
+.linkicontxt{background: url(/local/templates/bitrix-dental/images/images/text.png)  no-repeat 100%; padding-left:2em;background-size: 1.3em;background-position: left; }
+.adm-detail-toolbar,.adm-detail-title,.adm-detail-tabs-block,.adm-detail-tabs-block-settings{display:none!important;}
+.bx-core-adm-dialog-content-wrap-inner .hide{display:inline-block;}
+.disclist{display:table;width:100%;border:solid thin gray;}
+.discname, .discnameh{display:table-row;}
+.discColl,.discCollh, discname{display:table-cell;width:45%;background-color: white !important;border:solid thin gray;}
+.discColl select {width: 100%;border-radius: 0 !important;height: 2em !important;border: none !important;background-color: white !important;}
+.discbtnColl{display:table-cell; width: 30px;}
+.discbtnColl button{height: 2em !important;}
+.discCollh{min-width:24px;vertical-align:middle;height:1em; border:solid thin gray;padding:5px;font-weight: 600;}
+.btndel img {width: auto; height: 1.8em;}
+.btndel{vertical-align:middle;height:1em;}
+h1{font-size:1.4em!important;margin-bottom:5px!important;margin-left:0px!important;}
+h2{font-size:1.2em!important;margin-bottom:5px!important;margin-left:5px!important;}
+h3{font-size:1em!important;margin-bottom:5px!important;margin-left:10px!important;}
+.divlevels2{margin-left:1em;}
+.container{margin-left:5px!important;max-width: unset!important;margin-right:5px!important;}
+.link:hover{cursor:pointer;}
+.tablelink{margin-bottom:5px; padding-left: 30px; background: url(/sveden/icons/link.png)  no-repeat 100%; background-size: 15px;background-position: left; }
+.iconEmpty{margin-bottom:5px; padding-left: 30px; background: url(/sveden/icons/info.png)  no-repeat 100%; background-size: 15px;background-position: left; }
+
+.buttongoogle {
+  display: inline-block;
+  font-family: arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: rgb(68,68,68);
+  text-decoration: none;
+  user-select: none;
+  padding: .2em 1.2em;
+  outline: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+  transition: all .218s ease 0s;
+	vertical-align: middle;
+}
+.buttongoogle:hover {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.buttongoogle:active {
+  color: rgb(51,51,51);
+  border: 1px solid rgb(204,204,204);
+  background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+
+

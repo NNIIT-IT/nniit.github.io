@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Институт", 
+		"about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Пациенту", 
+		"patient/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Обучающемуся", 
+		"student/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Наука", 
+		"science/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ДПО", 
+		"dpo/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сотруднику", 
+		"staff/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сведения об образовательной организации", 
+		"sveden/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

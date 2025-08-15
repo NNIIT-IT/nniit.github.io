@@ -1,0 +1,75 @@
+<?php
+
+return array (
+	/*
+'cache_flags' => 
+  array (
+    'value' => 
+    array (
+      'config_options' => 3600.0,
+    ),
+    'readonly' => false,
+  ),
+*/
+'cache' => [
+    'value' => [
+            'type' => array(
+                'class_name' => '\\Bitrix\\Main\\Data\\CacheEngineRedis',
+                'extension' => 'redis'
+            ),
+            'redis' => array(
+                'host' => '127.0.0.1',
+                'port' => '6379',
+            ),
+            'sid' => $_SERVER["DOCUMENT_ROOT"] . "#ho"
+    ],
+  ],
+  'cookies' => 
+  array (
+    'value' => 
+    array (
+      'secure' => false,
+      'http_only' => true,
+    ),
+    'readonly' => false,
+  ),
+  'exception_handling' => 
+  array (
+    'value' => 
+    array (
+      'debug' => false,
+      'handled_errors_types' => 4437,
+      'exception_errors_types' => 4437,
+      'ignore_silence' => false,
+      'assertion_throws_exception' => true,
+      'assertion_error_type' => 256,
+      'log' => NULL,
+    ),
+    'readonly' => false,
+  ),
+  'connections' => 
+  array (
+    'value' => 
+    array (
+      'default' => 
+      array (
+        'host' => 'localhost',
+        'database' => 'niit',
+        'login' => 'bitrix',
+        'password' => 'bitrix2024mysql',
+        'options' => 2.0,
+        'className' => '\\Bitrix\\Main\\DB\\MysqliConnection',
+      ),
+    ),
+    'readonly' => true,
+  ),
+  'crypto' => 
+  array (
+    'value' => 
+    array (
+      'crypto_key' => 'a6248eec47a2ac9ab795489cebe17363',
+    ),
+    'readonly' => true,
+  ),
+
+);

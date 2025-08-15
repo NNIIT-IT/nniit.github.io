@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>9</id>
+		<name>RezPriem</name>
+		<table_name>rez_priem</table_name>
+	</hiblock>
+	<langs>
+	</langs>
+	<fields>
+		<field>
+			<id>175</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_OPP</field_name>
+			<user_type_id>iblock_element</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<iblock_id>59</iblock_id>
+				<default_value />
+				<active_filter>Y</active_filter>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Образовательная программа</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>177</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_BR</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id>NumberBRpriem</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>за счёт бюджетов субъектов Российской Федерации</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>178</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_BF</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id>NumberBFpriem</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>за счёт бюджетных ассигнований федерального бюджета</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>179</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_BM</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id>NumberBMpriem</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>за счёт местных бюджетов</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>180</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_P</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id>NumberPpriem</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>за счёт средств физических и (или) юридических лиц</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>181</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_S</field_name>
+			<user_type_id>double</user_type_id>
+			<xml_id>Scorepriem</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<precision>4</precision>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value>0</default_value>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>средняя сумма баллов</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>double</base_type>
+		</field>
+		<field>
+			<id>182</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_GOD</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>Y</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>год набора</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>188</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_DOC</field_name>
+			<user_type_id>file</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>N</show_in_list>
+			<edit_in_list>N</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<list_width>200</list_width>
+				<list_height>200</list_height>
+				<max_show_size>0</max_show_size>
+				<max_allowed_size>0</max_allowed_size>
+				<extensions />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>файл приказа</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>file</base_type>
+		</field>
+		<field>
+			<id>267</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_FORM</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings />
+			<edit_form_label>
+				<en />
+				<ru>Форма обучения</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_opp>5703</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bf>0</uf_bf>
+			<uf_bm>0</uf_bm>
+			<uf_p>3</uf_p>
+			<uf_s>98.3</uf_s>
+			<uf_god>2023</uf_god>
+			<uf_doc>0</uf_doc>
+			<uf_form>Очная</uf_form>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_opp>5773</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bf>0</uf_bf>
+			<uf_bm>0</uf_bm>
+			<uf_p>1</uf_p>
+			<uf_s>134.33</uf_s>
+			<uf_god>2023</uf_god>
+			<uf_doc />
+			<uf_form>Очная</uf_form>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_opp>5704</uf_opp>
+			<uf_br />
+			<uf_bf>0</uf_bf>
+			<uf_bm>0</uf_bm>
+			<uf_p>2</uf_p>
+			<uf_s>156.16</uf_s>
+			<uf_god>2023</uf_god>
+			<uf_doc />
+			<uf_form>Очная</uf_form>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_opp>5705</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bf>0</uf_bf>
+			<uf_bm>0</uf_bm>
+			<uf_p>2</uf_p>
+			<uf_s>113.6</uf_s>
+			<uf_god />
+			<uf_doc />
+			<uf_form>Очная</uf_form>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_opp>5706</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bf>0</uf_bf>
+			<uf_bm>0</uf_bm>
+			<uf_p>2</uf_p>
+			<uf_s>195.75</uf_s>
+			<uf_god />
+			<uf_doc />
+			<uf_form>Очная</uf_form>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_opp>5770</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bf>0</uf_bf>
+			<uf_bm>0</uf_bm>
+			<uf_p>3</uf_p>
+			<uf_s>172.83</uf_s>
+			<uf_god>2023</uf_god>
+			<uf_doc />
+			<uf_form>Очная</uf_form>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_opp>5771</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bf>0</uf_bf>
+			<uf_bm>0</uf_bm>
+			<uf_p>1</uf_p>
+			<uf_s>95.25</uf_s>
+			<uf_god>2023</uf_god>
+			<uf_doc />
+			<uf_form>Очная</uf_form>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_opp>5772</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bf>0</uf_bf>
+			<uf_bm>0</uf_bm>
+			<uf_p>5</uf_p>
+			<uf_s>134.2</uf_s>
+			<uf_god>2023</uf_god>
+			<uf_doc />
+			<uf_form>Очная</uf_form>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_opp>5705</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bf>0</uf_bf>
+			<uf_bm>0</uf_bm>
+			<uf_p>2</uf_p>
+			<uf_s>113.6</uf_s>
+			<uf_god>2023</uf_god>
+			<uf_doc />
+			<uf_form>Очная</uf_form>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_opp>5706</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bf>0</uf_bf>
+			<uf_bm>0</uf_bm>
+			<uf_p>2</uf_p>
+			<uf_s>195.75</uf_s>
+			<uf_god>2023</uf_god>
+			<uf_doc />
+			<uf_form>Очная</uf_form>
+		</item>
+	</items>
+</hiblock>

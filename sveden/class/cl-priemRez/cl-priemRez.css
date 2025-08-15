@@ -1,0 +1,10 @@
+.priemrez {
+	width: auto;
+	font-size:11px;		
+}
+.priemrez th{vertical-align:middle; text-align:center;}
+.priemrez th, .priemrez td{border-collapse: collapse;text-align:center;border: thin gray solid !important;}
+.priemrez th,.priemrez td:nth-child(1){width:3em; text-align:center;}
+.priemrez th,.priemrez td:nth-child(2){width:15em; text-align:center;}
+.priemrez th,.priemrez td:nth-child(4){width:10em; text-align:center;}
+.priemrez thead td{background-color: #0000000d;}

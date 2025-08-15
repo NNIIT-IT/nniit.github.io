@@ -1,0 +1,179 @@
+h1{font-size: 1.45em; font-weight: normal;  margin:0;padding:0px; margin-bottom: 20px; padding-bottom: 10px;}
+
+h2,h3,h4{ margin:0;padding:0px;font-size:1.15em; margin-bottom:10px; font-weight:normal;}
+html body {padding: 0;  margin: 0;}
+.container{
+position: relative;
+margin: 0 auto;
+max-width: 1920px;
+min-width: 360px;
+width: calc(80% - 2em);
+display:inline-block;
+    background-color: #eef;
+	min-height: calc((100vh - 100px)/3);
+}
+.left_block{
+  background-color: #a8a8a800;
+  min-height: calc((100vh - 100px)/3);
+  width: 20%;
+  padding-left: 5px;
+  display: inline-block;
+  position: sticky;
+  vertical-align: top;
+}
+.right_block
+{
+	background-color: #a8a8a800;
+  min-height: calc((100vh - 100px)/3);
+  float: right;
+  width: 20%;
+  padding-right: 5px;
+}
+.breadcrumb{
+position: relative;
+margin: 0 auto;
+max-width: 1200px;
+min-width: 360px;
+display:block;
+}
+.biglogo{
+   align-items: center;
+   justify-content: center;
+   vertical-align:middle;
+	display:flex;
+	position: absolute;
+    left: 20%;
+    top: 100px;
+    font-size: 3em;
+    z-index: 200;
+    color: white;
+	height: 100%;
+}
+.doctorForm{
+
+}
+.doctorForm textarea{
+width:400px;
+height:400px;
+}
+
+/*icons*/
+.linkicons {list-style-type: none;}
+.linkicons li{list-style-type: none;}
+.linkicon{padding-left:1.5em;margin-left:0em;line-height: 1.5em;cursor: pointer;}
+a[href$='.pdf'].linkicon, a[data-ext=pdf] {background: url(/local/templates/.default/icons/pdf.png) no-repeat 100%;  background-size: 1.3em;background-position: left;padding-right: 0.2em; }
+a[href$='.PDF'].linkicon {background: url(/local/templates/.default/icons/pdf.png) no-repeat 100%;  background-size: 1.3em;background-position: left;padding-right: 1em; }
+a[href$='.doc'].linkicon, a[data-ext=doc] {background: url(/local/.default/icons/doc.png) no-repeat 100%;background-size: 1.3em;background-position: left; padding-right: 0.2em;}
+a[href$='.xls'].linkicon {background: url(/local/templates/.default/icons/xls.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 0.2em;}
+a[href$='.xlsx'].linkicon, a[data-ext=xlsx] {background: url(/local/templates/.default/icons/xls.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 0.2em;}
+a[href$='.txt'].linkicon {background: url(/local/templates/.default/icons/txt.png) no-repeat 100%; background-size: 1em;background-position: left; padding-right: 0.2em;}
+a[href$='.docx'].linkicon, a[data-ext=docx]{background: url(/local/templates/.default/icons/doc.png)  no-repeat 100%; background-size: 1.3em;background-position: left;padding-right: 0.2em; }
+
+a[href$='.jpg'].linkicon, a[data-ext=jpg] {background: url(/local/templates/.default/icons/jpg.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 0.2em;}
+a[href$='.bmp'].linkicon, a[data-ext=bmp] {background: url(/local/templates/.default/icons/bmp.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 0.2em;}
+
+a[href$='.ppt'].linkicon {background: url(/local/templates/.default/icons/ppt.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 0.2em;}
+a[href$='.pptx'].linkicon {background: url(/local/templates/.default/icons/ppt.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 0.2em;}
+a[href$='.jpg'].linkicon {background: url(/local/templates/.default/icons/jpg.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 0.2em;}
+a[href$='.rtf'].linkicon {background: url(/local/templates/.default/icons/rtf.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 0.2em;}
+a[href$='.odt'].linkicon {background: url(/local/templates/.default/icons/doc.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 0.2em;}
+a[href$='.RTF'].linkicon {background: url(/local/templates/.default/icons/rtf.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 0.2em;}
+a[href$='.ru'].linkicon {background: url(/local/templates/.default/icons/link.png)  no-repeat 100%; background-size: 1.3em;background-position: left; }
+a[href$='.com'].linkicon {background: url(/local/templates/.default/icons/link.png)  no-repeat 100%; background-size: 1.3em;background-position: left; }
+a[href$='.org'].linkicon {background: url(/local/templates/.default/icons/link.png)  no-repeat 100%; background-size: 1.3em;background-position: left; }
+a[href$='.ru/'].linkicon {background: url(/local/templates/.default/icons/link.png)  no-repeat 100%; background-size: 1.3em;background-position: left; }
+a[href$='.com/'].linkicon {background: url(/local/templates/.default/icons/link.png)  no-repeat 100%; background-size: 1.3em;background-position: left; }
+a[href$='.org/'].linkicon {background: url(/local/templates/.default/icons/link.png)  no-repeat 100%; background-size: 1.3em;background-position: left; }
+.boxview[data-ext=pdf] {background: url(/local/templates/.default/icons/pdf.png) no-repeat 100%;  background-size: 1.3em;background-position: left;padding-right: 0.2em; }
+.boxview[data-ext=PDF] {background: url(/local/templates/.default/icons/pdf.png) no-repeat 100%;  background-size: 1.3em;background-position: left;padding-right: 1em; }
+.linkiconpdf{background: url(/sveden/icons/pdf.png) no-repeat 100%!important;  background-size: 1.3em!important;;background-position: left!important;;padding-right: 1em!important;; }
+.linkiconpdf:hover{background: url(/sveden/icons/pdf.png) no-repeat 100%!important;  background-size: 1.3em!important;;background-position: left!important;;padding-right: 1em!important;cursor:pointer;; }
+.texticon{background: url(/sveden/icons/text.png)  no-repeat 100%; padding-left:1.5em;background-size: 1em;background-position: left; text-decoration: none;}
+.tableicon{background: url(/sveden/icons/table.png)  no-repeat 100%; padding-left:1.5em;background-size: 1em;background-position: left; text-decoration: none;background-position-y: 5px;}
+.goicon{background: url(/sveden/icons/cc14.png)  no-repeat 100%; padding-left:1.5em;background-size: 1em;background-position: left; text-decoration: none;}
+.hidedivlink, .linkicon {
+background: url(/sveden/icons/folder_close.gif)  no-repeat 100%; padding-left:2em;margin-left:0em;background-size: 1.3em;background-position: left; }
+.linkicontxt{background: url(/sveden/icons/text.png)  no-repeat 100%; padding-left:2em;background-size: 1.3em;background-position: left; }
+.folderOpen{background: url(/local/templates/bitrix-dental/images/folder_open.gif)  no-repeat 100%; padding-left:2em;background-size: 1.3em;background-position: left; }
+.folderClose{background: url(/local/templates/bitrix-dental/images/folder_close.gif)  no-repeat 100%; padding-left:2em;background-size: 1.3em;background-position: left; }
+.adm-detail-toolbar,.adm-detail-title,.adm-detail-tabs-block,.adm-detail-tabs-block-settings{display:none!important;}
+.bx-core-adm-dialog-content-wrap-inner .hide{display:inline-block;}
+.hide{display:none;}
+.divslide:hover{cursor:pointer;}
+.simpletable{border-collapse: collapse;width:100%;}
+.simpletable td{border: solid thin gray;} 
+.simpletable th{border: solid thin gray;text-align:center;}
+.simpletable p{padding:0;}
+h1{font-size:1.7em;}
+h3{font-size:1.2em;}
+.link{color: #009bdf;}
+.link::hover{text-decoration: underline;cursor:pointer;}
+.priem{
+width:100%; 
+display:inline-block;
+position:relative;
+background: no-repeat left/100% url('/upload/medialibrary/4aa/logo3.jpg');
+height: 250px; min-height:200px;max-height:250px;
+font-size:20px;
+}
+.priem span{
+font-weight: 600;
+color: darkslategray;
+}
+.fadein{
+ display: block;
+ height: calc(100px - 20px);
+max-height: 120px;
+position:relative;
+ /* height: 28vw;
+  width: 40vw;
+ position: relative;
+max-height: 300px;
+  min-height: 230px;
+max-width: 100%;*/
+}
+.tile{
+display:inline-block;
+max-width:420px;
+padding:10px;
+}
+.tile img{
+max-width:400px;
+}
+@keyframes fade {
+  0% { opacity: 0; }
+  11.11% { opacity: 1; }
+  33.33% { opacity: 1; }
+  44.44% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fade1 {
+  0% { opacity: 1; }
+  11.11% { opacity: 0; }
+  33.33% { opacity: 0; }
+  44.44% { opacity: 1; }
+  100% { opacity: 1; }
+}
+.fadein img{position:absolute;backface-visibility: hidden;}
+.fadein img:nth-child(1){
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+	opacity:1;
+	animation-name: fade1;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+.fadein img:nth-child(2){
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+	opacity:0;
+	animation-name: fade;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	bottom: 0px;
+}

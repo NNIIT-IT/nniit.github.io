@@ -1,0 +1,13 @@
+<?
+$PERM["index(1).php"]["8"]="R";
+$PERM["eduStandartDocAsp.html"]["8"]="W";
+$PERM["eduStandartDocOrd.html"]["8"]="W";
+$PERM["eduStandartDocBach.html"]["8"]="W";
+$PERM["index.php"]["8"]="R";
+$PERM["eduStandartDocMag.html"]["8"]="W";
+$PERM["eduStandartTreb.html"]["8"]="W";
+$PERM["eduStandartDoc.html"]["8"]="W";
+$PERM["eduFedSPDoc.html"]["8"]="W";
+$PERM["eduFedDoc.html"]["8"]="W";
+$PERM["eduFedTreb.html"]["8"]="W";
+?>

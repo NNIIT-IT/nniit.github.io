@@ -1,0 +1,25 @@
+.eduVacant {border: solid thin lightgray;border-collapse: collapse;font-size:11px;width:auto;page-break-after: always;}
+.spheadR0 th {font-size:5px;}
+.spheadR0 td {border:none;background-color: gray;}
+.spheadR1 th {border: solid thin lightgray;background-color: #0000001a; padding: 8px;font-weight: 600;font-size:12px;}
+.spheadR2 th {border: solid thin lightgray;background-color: #f0f0f0; padding: 2px;font-weight: 400;font-size:10px;}
+.eduVacant td {border: solid thin lightgray;padding: 3px;}
+
+.spheadR2 th:nth-of-type(1) {width:50px;}
+.spheadR2 th:nth-of-type(2) {width:125px;}
+.spheadR2 th:nth-of-type(3) {width:100px;}
+.spheadR2 th:nth-of-type(4) {width:110px;}
+.spheadR2 th:nth-of-type(5) {width:80px;}
+.spheadR2 th:nth-of-type(6) {width:80px;}
+.spheadR2 th:nth-of-type(7) {width:80px;}
+.spheadR2 th:nth-of-type(8) {width:80px;}
+.spheadR2 th:nth-of-type(9) {width:80px;}
+.spheadR2 th:nth-of-type(10) {width:80px;}
+
+.eduVacant td:nth-of-type(1) {text-align:left;}
+.eduVacant td:nth-of-type(2) {text-align:left;}
+.eduVacant td:nth-of-type(3) {text-align:left;}
+.eduVacant td:nth-of-type(4) {text-align:left;}
+.eduVacant td:nth-of-type(n+5) {text-align:center;}
+.eduVacant tr:nth-of-type(2n){background-color: #c0c0c01a;}
+.eduVacant th {text-align:center;vertical-align:middle;}

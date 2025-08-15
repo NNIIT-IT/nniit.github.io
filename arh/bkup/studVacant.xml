@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>11</id>
+		<name>StudVacant</name>
+		<table_name>stud_vacant</table_name>
+	</hiblock>
+	<langs>
+	</langs>
+	<fields>
+		<field>
+			<id>204</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_COURSE</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>205</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_FORM</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>207</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_FB</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>208</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_P</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>209</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_P_M</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>210</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_LEVEL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>N</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>211</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_CODE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>N</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>212</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>N</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>213</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_PROF</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>N</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>214</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_OPP</field_name>
+			<user_type_id>iblock_element</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<iblock_id>59</iblock_id>
+				<default_value />
+				<active_filter>N</active_filter>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>215</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_BR</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>за счет регионального бюджета</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>217</id>
+			<entity_id>HLBLOCK_11</entity_id>
+			<field_name>UF_BM</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Местный бюджет</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>97</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m>99</uf_p_m>
+			<uf_level>Ординатура</uf_level>
+			<uf_code>3.1.7</uf_code>
+			<uf_name>Стоматология_1</uf_name>
+			<uf_prof>Стоматология</uf_prof>
+			<uf_opp>5703</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>98</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m>99</uf_p_m>
+			<uf_level>Ординатура</uf_level>
+			<uf_code>31.08.72</uf_code>
+			<uf_name>Стоматология общей практики_1</uf_name>
+			<uf_prof />
+			<uf_opp>5704</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>99</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Ординатура</uf_level>
+			<uf_code>31.08.73</uf_code>
+			<uf_name>Стоматология терапевтическая_1</uf_name>
+			<uf_prof />
+			<uf_opp>5705</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>100</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Ординатура</uf_level>
+			<uf_code>31.08.74</uf_code>
+			<uf_name>Стоматология хирургическая_1</uf_name>
+			<uf_prof />
+			<uf_opp>5706</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>101</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Ординатура</uf_level>
+			<uf_code>31.08.75</uf_code>
+			<uf_name>Стоматология ортопедическая_1</uf_name>
+			<uf_prof />
+			<uf_opp>5770</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>102</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Ординатура</uf_level>
+			<uf_code>31.08.76</uf_code>
+			<uf_name>Стоматология детская_1</uf_name>
+			<uf_prof />
+			<uf_opp>5771</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>103</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Ординатура</uf_level>
+			<uf_code>31.08.77</uf_code>
+			<uf_name>Ортодонтия_1</uf_name>
+			<uf_prof>Ортодонтия</uf_prof>
+			<uf_opp>5772</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>104</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Ординатура</uf_level>
+			<uf_code>31.08.69</uf_code>
+			<uf_name>Челюстно-лицевая хирургия_1</uf_name>
+			<uf_prof />
+			<uf_opp>5773</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>105</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Аспирантура</uf_level>
+			<uf_code>3.1.7</uf_code>
+			<uf_name>Стоматология_1</uf_name>
+			<uf_prof>Стоматология</uf_prof>
+			<uf_opp>5703</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>106</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Магистратура</uf_level>
+			<uf_code>32.04.01</uf_code>
+			<uf_name>Общественное здравоохранение_1</uf_name>
+			<uf_prof />
+			<uf_opp>5774</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>107</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Магистратура</uf_level>
+			<uf_code>34.04.01</uf_code>
+			<uf_name>Управление сестринской деятельностью_1</uf_name>
+			<uf_prof />
+			<uf_opp>6068</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>108</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Высшее образование - программы ординатуры</uf_level>
+			<uf_code>31.08.72</uf_code>
+			<uf_name>Стоматология общей практики_1</uf_name>
+			<uf_prof />
+			<uf_opp>5704</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>109</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Высшее образование - программы ординатуры</uf_level>
+			<uf_code>31.08.73</uf_code>
+			<uf_name>Стоматология терапевтическая_1</uf_name>
+			<uf_prof />
+			<uf_opp>5705</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>110</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Высшее образование - программы ординатуры</uf_level>
+			<uf_code>31.08.74</uf_code>
+			<uf_name>Стоматология хирургическая_1</uf_name>
+			<uf_prof />
+			<uf_opp>5706</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>111</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Высшее образование - программы ординатуры</uf_level>
+			<uf_code>31.08.75</uf_code>
+			<uf_name>Стоматология ортопедическая_1</uf_name>
+			<uf_prof />
+			<uf_opp>5770</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>112</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Высшее образование - программы ординатуры</uf_level>
+			<uf_code>31.08.76</uf_code>
+			<uf_name>Стоматология детская_1</uf_name>
+			<uf_prof />
+			<uf_opp>5771</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>113</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Высшее образование - программы ординатуры</uf_level>
+			<uf_code>31.08.77</uf_code>
+			<uf_name>Ортодонтия_1</uf_name>
+			<uf_prof />
+			<uf_opp>5772</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>114</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Высшее образование - программы ординатуры</uf_level>
+			<uf_code>31.08.69</uf_code>
+			<uf_name>Челюстно-лицевая хирургия_1</uf_name>
+			<uf_prof />
+			<uf_opp>5773</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>115</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Высшее образование - программы подготовки научных и научно-педагогических кадров в аспирантуре (адъюнктуре)</uf_level>
+			<uf_code>3.1</uf_code>
+			<uf_name>Клиническая медицина_1</uf_name>
+			<uf_prof>3.1.7 Стоматология</uf_prof>
+			<uf_opp>5703</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>116</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Высшее образование - программы магистратуры</uf_level>
+			<uf_code>32.04.01</uf_code>
+			<uf_name>Общественное здравоохранение_1</uf_name>
+			<uf_prof>Управление сестринской деятельностью в медицинской организации стоматологического профиля</uf_prof>
+			<uf_opp>5774</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+		<item>
+			<id>117</id>
+			<uf_course>1</uf_course>
+			<uf_form>Очная</uf_form>
+			<uf_fb>0</uf_fb>
+			<uf_p>0</uf_p>
+			<uf_p_m />
+			<uf_level>Высшее образование - программы магистратуры</uf_level>
+			<uf_code>34.04.01</uf_code>
+			<uf_name>Управление сестринской деятельностью_1</uf_name>
+			<uf_prof>Управление сестринской деятельностью</uf_prof>
+			<uf_opp>6068</uf_opp>
+			<uf_br>0</uf_br>
+			<uf_bm>0</uf_bm>
+		</item>
+	</items>
+</hiblock>

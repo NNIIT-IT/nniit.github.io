@@ -1,0 +1,59 @@
+.bx-niit.bx-top-nav .bx-top-nav-container {
+	/*background: transparent;*/
+	color:#000;
+}
+/*
+.bx-niit.bx-top-nav .bx-nav-1-lvl a{
+	color:#fff;
+}
+*/
+.bx-niit.bx-top-nav .bx-top-nav-container .bx-nav-1-lvl.bx-hover>a,
+.bx-niit.bx-top-nav .bx-top-nav-container .bx-nav-1-lvl.bx-active>a,
+.bx-niit.bx-top-nav .bx-top-nav-container .bx-nav-1-lvl:hover>a {
+	/*background-color: #fffbf4;*/
+	border-bottom: none;
+	color: #2200c4;
+	opacity: 1;
+}
+.bx-niit.bx-top-nav .bx-top-nav-container .bx-nav-1-lvl.bx-nav-parent.bx-hover>a,
+.bx-niit.bx-top-nav .bx-top-nav-container .bx-nav-1-lvl.bx-nav-parent:hover>a {
+	color: #2200c4;
+	background-color: transparent;
+
+}
+/*2 lvl*/
+.bx-nav-2-lvl-container{
+	color: #2200c4;
+}
+.bx-niit.bx-top-nav a.bx-nav-2-lvl a, .bx-top-nav-container{
+	color: #2200c4;
+}
+.bx-niit.bx-top-nav .bx-nav-2-lvl:hover{
+	background-color: transparent;
+	color: #2200c4;
+}
+.bx-niit.bx-top-nav .bx-top-nav-container .bx-nav-2-lvl>a.bx-active{
+	color: #2200c4;
+	background-color: #d5d5d5;
+    /*border-left: solid 3px brown;*/
+
+}
+
+.bx-niit.bx-top-nav .bx-top-nav-container .bx-nav-2-lvl>a:hover {
+	color: #2200c4;
+	background-color: transparent;
+    border-left: solid 3px blue;
+    /*padding-left: 5px;*/
+}
+/*3 lvl*/
+.bx-niit.bx-top-nav .bx-top-nav-container .bx-nav-3-lvl a.bx-active{
+	color: #2200c4;
+	background-color: transparent;
+}
+.bx-niit.bx-top-nav .bx-top-nav-container .bx-nav-3-lvl a:hover {
+	color: #2200c4;
+	background-color: transparent;
+}
+.bx-aside-nav-control{
+top:0;
+}

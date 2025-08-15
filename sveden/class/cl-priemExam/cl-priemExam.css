@@ -1,0 +1,17 @@
+.priemExam{
+width: 100%;
+border: solid thin lightgray;
+border-collapse: collapse;
+font-size:.9em;
+overflow:auto;
+}
+.priemExam tr:nth-child(2n){background-color: #bdbdbd08;}
+.priemExam th {border: solid thin lightgray;padding: 3px;}
+.priemExam thead th {background-color: #b0b0b01a;font-weight:400;}
+
+.priemExam td {border: solid thin lightgray;padding: 3px;}
+.priemExam td:nth-child(1) {text-align:center;}
+.priemExam td:nth-child(n + 2) {text-align:left;}
+.priemExam td:nth-child(4) {text-align:center;}
+.priemExam tbody th p{font-size:1em;font-weight:200;text-align:left;background-color: #FFF;}
+.priemExam .levelname{font-size:1em;font-weight:600;text-align:center;background-color: #b0b0b01a;}

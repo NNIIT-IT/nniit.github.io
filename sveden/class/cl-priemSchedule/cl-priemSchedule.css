@@ -1,0 +1,15 @@
+.priemScheduleRow {display:table-row;}
+.priemScheduleCell{display:table-cell;border: solid 1px #80808038;padding:2px;}
+.priemScheduleTable .priemScheduleRow:first-child .priemScheduleCell{background-color: #d3d3d378; text-align: center; font-weight: 600;padding:5px;}
+.rezerv{}
+.priemSchedulefindError{padding-top: 2em;color: #1a05ae;font-weight: bold;}
+.priemSchedulefindInfo{background-color: #f9f9f9;padding: 10px;line-height: 0.5em;margin: 0px 16px 17px 16px;}
+
+.priemScheduleLevelName{width: 100%;display: inline-block;background-color: aliceblue;text-align: center;padding: 5px;}
+.priemSchedulefind {position: relative;height: 1em;width: 100%;color:red;}
+.priemSchedulefind div {position: absolute;width: 1em;height: 1em;padding: 4px;}
+.priemSchedulefind div img {width: 1.3em;height: 1.3em;}
+.priemSchedulefind div:nth-child(1) {width: calc(100% - 30px);position: absolute;left: 0;top: 0;}
+.priemSchedulefind div:nth-child(1) input {width: 100%;font-size: 16px;}
+.priemSchedulefind div:nth-child(2) {right: 30px;    top: 3px;}
+.priemSchedulefind div:nth-child(3) {width: 1.3em;height: 1.3em;right:-10px;}

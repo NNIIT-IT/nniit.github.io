@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>14</id>
+		<name>GraduateJob</name>
+		<table_name>graduate_job</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>14</id>
+			<lid>ru</lid>
+			<name>Трудоустройство</name>
+		</lang>
+		<lang>
+			<id>14</id>
+			<lid>en</lid>
+			<name>GraduateJob</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>251</id>
+			<entity_id>HLBLOCK_14</entity_id>
+			<field_name>UF_SPEC_CODE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>specCode</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Код специальности (направления)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>252</id>
+			<entity_id>HLBLOCK_14</entity_id>
+			<field_name>UF_SPEC_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>specName</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>2</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Наименование профессии, специальности, направления подготовки наименование группы научных специальностей</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>255</id>
+			<entity_id>HLBLOCK_14</entity_id>
+			<field_name>UF_CNT_ALL</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id>cnt</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Количество выпускников</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>256</id>
+			<entity_id>HLBLOCK_14</entity_id>
+			<field_name>UF_YEAR_OUT</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id>yearOut</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Год выпуска</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>257</id>
+			<entity_id>HLBLOCK_14</entity_id>
+			<field_name>UF_CNT_TRUD</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id>cntTrud</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Количество трудоустроенных выпускников</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>272</id>
+			<entity_id>HLBLOCK_14</entity_id>
+			<field_name>UF_EDU_PROF</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>2</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Образовательная программа, направленность, профиль, шифр и наименование научной специальности</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>276</id>
+			<entity_id>HLBLOCK_14</entity_id>
+			<field_name>UF_SPEC_ID</field_name>
+			<user_type_id>iblock_element</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>DIALOG</display>
+				<list_height>1</list_height>
+				<iblock_id>59</iblock_id>
+				<default_value />
+				<active_filter>Y</active_filter>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>2</id>
+			<uf_spec_code>3.1</uf_spec_code>
+			<uf_spec_name>Клиническая медицина</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2024</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>3.1.7 Стоматология</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>3</id>
+			<uf_spec_code>31.08.73</uf_spec_code>
+			<uf_spec_name>Стоматология терапевтическая</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2024</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>Стоматология терапевтическая </uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>4</id>
+			<uf_spec_code>31.08.69 </uf_spec_code>
+			<uf_spec_name>Челюстно-лицевая хирургия</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2024</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>Челюстно-лицевая хирургия</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>5</id>
+			<uf_spec_code>31.08.72</uf_spec_code>
+			<uf_spec_name>Стоматология общей практики</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2023</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>Стоматология общей практики</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>6</id>
+			<uf_spec_code>31.08.74</uf_spec_code>
+			<uf_spec_name>Стоматология хирургическая</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2023</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>Стоматология хирургическая </uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>7</id>
+			<uf_spec_code>31.08.75</uf_spec_code>
+			<uf_spec_name>Стоматология ортопедическая</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2023</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>Стоматология ортопедическая </uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>8</id>
+			<uf_spec_code>31.08.76 </uf_spec_code>
+			<uf_spec_name>Стоматология детская</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2023</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>Стоматология детская</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>9</id>
+			<uf_spec_code>31.08.77</uf_spec_code>
+			<uf_spec_name>Ортодонтия</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2023</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>Ортодонтия</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>10</id>
+			<uf_spec_code>31.02.05</uf_spec_code>
+			<uf_spec_name>Стоматология ортопедическая</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2024</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>Стоматология ортопедическая</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>11</id>
+			<uf_spec_code>31.02.06</uf_spec_code>
+			<uf_spec_name>Стоматология профилактическая</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2024</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>Стоматология профилактическая</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>12</id>
+			<uf_spec_code>34.02.01</uf_spec_code>
+			<uf_spec_name>Сестринское дело</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2024</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>Сестринское дело</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>13</id>
+			<uf_spec_code>34.03.01</uf_spec_code>
+			<uf_spec_name>Сестринское дело</uf_spec_name>
+			<uf_cnt_all>0</uf_cnt_all>
+			<uf_year_out>2024</uf_year_out>
+			<uf_cnt_trud>0</uf_cnt_trud>
+			<uf_edu_prof>Управление и организация сестринского дела</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>14</id>
+			<uf_spec_code>31.05.03</uf_spec_code>
+			<uf_spec_name>Стоматология</uf_spec_name>
+			<uf_cnt_all />
+			<uf_year_out>2024</uf_year_out>
+			<uf_cnt_trud />
+			<uf_edu_prof>Оказание медицинской помощи при стоматологических заболеваниях</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>15</id>
+			<uf_spec_code>32.04.01</uf_spec_code>
+			<uf_spec_name>Общественное здравоохранение</uf_spec_name>
+			<uf_cnt_all />
+			<uf_year_out>2024</uf_year_out>
+			<uf_cnt_trud />
+			<uf_edu_prof>Управление сестринской деятельностью в медицинской организации стоматологического профиля</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+		<item>
+			<id>16</id>
+			<uf_spec_code>34.04.01</uf_spec_code>
+			<uf_spec_name>Управление сестринской деятельностью</uf_spec_name>
+			<uf_cnt_all />
+			<uf_year_out>2024</uf_year_out>
+			<uf_cnt_trud />
+			<uf_edu_prof>Управление сестринской деятельностью</uf_edu_prof>
+			<uf_spec_id />
+		</item>
+	</items>
+</hiblock>

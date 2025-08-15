@@ -1,0 +1,19 @@
+.priemPriceTable{
+width: 100%;
+overflow:auto;
+border: solid thin lightgray;
+border-collapse: collapse;
+font-size:.85em;
+}
+.smallH1{font-size:1.2em;font-weight:600;line-height: 1.2em;}
+.priemPriceTable tr:nth-child(2n){background-color: #bdbdbd08;}
+.priemPriceTable th {border: solid thin lightgray;padding: 3px;}
+.priemPriceTable thead th {background-color: #b0b0b01a;font-weight:400;}
+.priemPriceTable tbody .oppheader {background-color: #f4feff;font-size:1em;}
+.priemPriceTable tbody th {background-color: #b0b0b01a;font-size:1em;font-weight:200;}
+.priemPriceTable td {border: solid thin lightgray;padding: 3px;}
+.priemPriceTable td:nth-of-type(1) {text-align:center;}
+.priemPriceTable td:nth-of-type(n+3) {text-align:center;}
+.footnotes{vertical-align: super;font-size: 10px;font-weight: 600;color: blue;font-style: italic;padding: 2px;font-family: times;}
+.footnotes:hover{text-decoration: underline;}
+

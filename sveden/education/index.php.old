@@ -1,0 +1,124 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
+
+<br>
+ <?
+$god=2025;
+require_once(__DIR__."/../class/asmuinfo/asmuinfo.php");
+$addstyle="display:block;";
+$z=new asmuinfo();
+/*
+$params=array(
+	"hideCaption"=>true,
+	"propList"=>array("licenseDocLink"),
+	"mainsection"=>array(393),
+	);
+$z->setAdminGroups(array(8));
+$z->setСlassList(array(
+	array("classname"=>"maindocs","params"=>$params),
+));*/
+?> 
+ <?$XSERVER=json_encode($_SERVER);?> <?
+$tableID=htmlspecialchars($_GET["table"]);
+$tables=array();
+$tables1=array();
+$tables1["eduAccred"]=$MESS["eduAccred"];
+$tables1["eduOp"]=$MESS["eduOp"];
+$tables1["eduAdOp"]=$MESS["eduAdOp"];
+
+
+$tables2["eduNir"]=$MESS["eduNir"];
+/*
+$tables["study"]="Информация о численности обучающихся по
+реализуемым образовательным программам за счет
+бюджетных ассигнований федерального бюджета,
+бюджетов субъектов Российской Федерации, местных
+бюджетов и по договорам об образовании за счет средств
+физических и (или) юридических лиц, в том числе
+информация о численности обучающихся, являющихся
+иностранными гражданами, по каждой образовательной
+программе и каждой профессии, специальности, в том
+числе научной, направлению подготовки или
+укрупненной группе профессий, специальностей и
+направлений подготовки (для профессиональных
+образовательных программ)";*/
+$tables["poa"]=$MESS["poa"];
+$tables["oaoo"]=$MESS["oaoo"];
+//$tables["maoo"]="Информация о международной аккредитации образовательной организации";
+//$tables["priem"]="Информация о результатах приема";
+//$tables["perevod"]="Информация о результатах перевода, восстановления и отчисления";
+$tables["graduateJob"]=$MESS["graduateJob"];
+//$tables["eduPr"]="Образовательные программы, наличие практики";
+?>
+<span class="hidedivlink linkicon link"><?=$MESS["educationCapt"]?></span>
+<div style="padding: 1em;">
+<?
+foreach ($tables1 as $k=>$name){
+			$k1++;
+	echo "<div class=\"tableicon black\" >";//link
+			$mode=true;
+	include  $_SERVER["DOCUMENT_ROOT"]."/sveden/education/".$k."/index.php";
+	//echo "<a itemprop=\"addRef\" href=\"/sveden/education/".$k."\" >".$name."</a><br><br>";
+			echo "</div>\r\n";
+		}
+?>
+</div>
+<?
+foreach ($tables2 as $k=>$name){
+			$k1++;
+	echo "<div class=\"tableicon black\" >";//link
+			$mode=true;
+			include  $_SERVER["DOCUMENT_ROOT"]."/sveden/education/".$k."/index.php";
+			//echo "<a itemprop=\"addRef\" href=\"/sveden/education/".$k."\" >".$name."</a><br><br>";
+			echo "</div>\r\n";
+
+		}
+
+echo "<div style=\"".$addstyle." margin-left: 2em;\">";
+$params=array("hideCaption"=>true,"propList"=>array("eduChislenEl"),	"mainsection"=>array(393),"god"=>$god);
+$z->setAdminGroups(array(8));
+$z->setСlassList(array(array("classname"=>"maindocs","params"=>$params),));
+$z->getHtml(false);
+/*
+echo "<span class='hidedivlink link'>".$MESS["eduChislenEl"]."</span>";
+$params=array("hideCaption"=>true,"god"=>$god);
+$z->setAdminGroups(array(8));
+$z->setСlassList(array(array("classname"=>"educhislen","params"=>$params),));
+$z->getHtml(false);
+*/
+echo "</div><br><br>";
+$params=array("hideCaption"=>true,"propList"=>array("languageEl","eduPriemEl","eduPerevodEl"),	"mainsection"=>array(393),"god"=>$god);
+$z->setAdminGroups(array(8));
+$z->setСlassList(array(array("classname"=>"maindocs","params"=>$params),));
+$z->getHtml(false);
+
+?><br><?
+if(in_array($tableID,array_keys($tables))){
+	$mode="require";
+	include(__DIR__."/".$tableID.".php");
+}else{
+		$k1=0;
+		foreach ($tables as $k=>$name){
+			$k1++;
+			echo "<br><br><div class=\"tableicon black\" >";//link
+			$mode=true;
+			include  $_SERVER["DOCUMENT_ROOT"]."/sveden/education/".$k."/index.php";
+
+			//echo "<a itemprop=\"addRef\" href=\"/sveden/education/".$k."\" >".$name."</a><br><br>";
+			echo "</div>\r\n";
+
+		}
+}
+?>
+
+<div class="tablelink link">
+	<a href="https://minobrnauki.gov.ru/" target="_blank">Официальный сайт Министерства науки и высшего образования Российской Федерации</a><br><br>
+</div>
+<div class="tablelink link">
+	<a href="https://obrnadzor.gov.ru" target="_blank">Официальный сайт Федеральной службы по надзору в сфере образования</a><br><br>
+</div>
+<div class="tablelink link">
+	<a href="https://edu.gov.ru" target="_blank">Минпросвещения России</a><br><br>
+</div>
+ <?
+if(!isset($nofooter) || !$nofooter)
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

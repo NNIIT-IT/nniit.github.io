@@ -1,0 +1,8 @@
+.purposeCabTable{font-size:12px;border: solid thin gray;}
+.purposeCabTable div{display:table-row;}
+.purposeCabTable div:nth-child(1) div{background-color: #e1e1e1;text-align: center;padding:5px;}
+.purposeCabTable div:nth-child(n+2) div{background-color:#FFF;text-align: left;}
+.purposeCabTable div div{display:table-cell; background-color: #e1e1e1;text-align: center;border-bottom: solid thin gray;border-left: solid thin gray;padding: 2px;font-weight:200;}
+.purposeCabTable div div:nth-child(1){width:25%;}
+.purposeCabTable div div:nth-child(2){width:25%;}
+.purposeCabTable div div:nth-child(3){width:50%;}

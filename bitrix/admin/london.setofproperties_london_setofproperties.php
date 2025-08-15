@@ -1,0 +1,1 @@
+<? require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/london.setofproperties/admin/london_setofproperties.php");?>

@@ -1,0 +1,32 @@
+.resultVITable{
+width: 100%;
+overflow:auto;
+}
+.resultVILevelName{
+width: 100%;
+display: inline-block;
+background-color: aliceblue;
+text-align: center;
+padding: 5px;}
+.resultVIRow{display:table-row;}
+.resultVITableName{display: inline-block;}
+.resultVICell{display:table-cell;border: solid 1px #80808038;}
+.resultVIEduName{text-align: left;background-color: #8080800a;width: 100%;display: inline-block;font-size: 1.1em;font-weight: 600; padding: 0.5em;}}
+.resultVIEduName div{font-size:0.8em;}
+.resultVITable{background: url(/local/common/icons/table.png)  no-repeat 100%; background-size: 1.3em;background-position: left; padding-right: 1em;}
+.resultVITableBody {font-size: 0.9em;padding-top: 0em;    overflow: auto;   max-height: 50vh;   height: auto; width: 100%;}
+.resultVITableBody .priemListRow:first-child {background-color: #80808038;text-align:center;vertical-align: middle;padding: 10px;}
+.resultVITableBody .priemListRow:first-child .priemListCell{vertical-align: middle;padding: 10px;}
+.numberCell{text-align:center;}
+.resultVITableBody .priemListRow:nth-child(n + 2) .priemListCell:nth-child(n + 6){font-size:.9em;}
+.resultVIInfo{vertical-align: super;font-size: 10px;font-weight: 600;color: blue;font-style: italic; padding: 2px; font-family: times;}
+.resultVITableBody .priemListRow:nth-child(1){position: sticky;top: 0px;background-color: #f9f9f9;}
+.resultVIInfo{vertical-align: super;font-size: 10px;font-weight: 600;color: blue;font-style: italic; padding: 2px; font-family: times;}
+.resultVIfind{position: relative;height: 1em;width: 100%;}
+
+.resultVIfind div {position: absolute;width: 1em;height: 1em;padding: 4px;}
+.resultVIfind div img {width: 1.3em;height: 1.3em;}
+.resultVIfind div:nth-child(1) {width: calc(100% - 30px);position: absolute;left: 0;top: 0;}
+.resultVIfind div:nth-child(1) input {width: 100%;font-size: 16px;}
+.resultVIfind div:nth-child(2) {right: 30px;    top: 3px;}
+.resultVIfind div:nth-child(3) {width: 1.3em;height: 1.3em;right:-10px;}

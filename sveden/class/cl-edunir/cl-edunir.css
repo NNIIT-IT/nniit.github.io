@@ -1,0 +1,17 @@
+.nirtable{min-width: 800px;border: solid thin lightgray;border-collapse: collapse;font-size:10px;}
+.nirtable th {border: solid thin lightgray;font-weight: normal;padding: 3px;}
+.nirtable thead th {background-color: #b0b0b01a}
+.nirtable tbody th {background-color: #00ffff08}
+.nirtable td {border: solid thin lightgray;padding: 3px;}
+.nirtable td:nth-of-type(1) {text-align:center;}
+.nirtable tbody td:nth-of-type(+n+1){text-align:left;}
+
+/*
+.nirtable tbody td:nth-of-type(3){display:none;}
+.nirtable thead th:nth-of-type(3){display:none;}
+
+.nirtable tbody td:nth-of-type(4){text-align:left; min-width: 200px;vertical-align: top;}
+.nirtable thead th:nth-of-type(4){text-align:center; min-width: 200px;}
+.nirtable tbody td:nth-of-type(5){text-align:left; min-width: 200px;vertical-align: top;}
+.nirtable thead th:nth-of-type(5){text-align:center; min-width: 200px;}
+*/

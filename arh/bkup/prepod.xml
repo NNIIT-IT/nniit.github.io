@@ -1,0 +1,2488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>7</id>
+		<name>Prepod</name>
+		<table_name>prepod</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>7</id>
+			<lid>ru</lid>
+			<name>Кадровый состав</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>273</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_QUALIFICATION</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>90</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>80</size>
+				<rows>3</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Сведения о повышении квалификации (за последние 3 года)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>237</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_PROFDEVELOPMENT</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>95</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>5</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Сведения о профессиональной переподготовке (при наличии)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>229</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_FIO</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Фамилия, имя, отчество</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>230</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_POST</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Занимаемая должность </ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>231</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_TEACHINGDISCIPLIN</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>5</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Преподаваемые учебные предметы, курсы, дисциплины (модули)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>232</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_TEACHINGLEVEL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>2</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Уровень (уровни) профессионального образования с указанием наименования направления подготовки и (или) специальности, в том числе научной</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>233</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_TEACHINGQUAL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Квалификация</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>234</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_EMPLOYEEQUALIFICA</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Наименование направления подготовки и (или) специальности, в том числе научной</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>235</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_DEGREE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Ученая степень</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>236</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_ACADEMSTAT</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Ученое звание</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>238</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_GENEXPERIENCE</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Общий стаж работы (месяцев)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>239</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_SPECEXPERIENCE</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Стаж работы по специальности (сведения о продолжительности опыта (лет) работы в профессиональной сфере, соответствующей образовательной деятельности по реализации учебных предметов, курсов, дисциплин (модулей) [месяцы]</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>240</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_TEACHINGOP</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>N</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>100</size>
+				<rows>3</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Наименование образовательных программ, в реализации которых участвует педагогический работник</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>241</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_MEDEXPERIENCE</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Медицинский стаж (месяцев)</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>242</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_CHILDEXPERIENCE</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Педагогический стаж (с детьми до 18 лет) [месяцев]</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>243</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_EMAIL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>eMail</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>245</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_PPS</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>1</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Преподаватель</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>246</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_NIR</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Научный работник</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>247</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_ACTIVE</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>1</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Активен</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>248</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_HI_STAFF</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Высший руководитель организации</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>249</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_HI_ZAM</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Заместитель руководителя образовательной организации</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>250</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_PERSONAL_URL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Персональная URL страница</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>258</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_PHONE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Телефон</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>270</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_SPECEXPERIENCE_B</field_name>
+			<user_type_id>date</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NONE</type>
+					<value />
+				</default_value>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Дата начала стажа по специальности</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+		<field>
+			<id>271</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_GENEXPERIENCE_B</field_name>
+			<user_type_id>date</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NONE</type>
+					<value />
+				</default_value>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Дата начала трудовой деятельности</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>46</id>
+			<uf_qualification> «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Шеплев Борис Валентинович</uf_fio>
+			<uf_post>Ректор ЧОУ ВО «НМСИ ДЕНТМАСТЕР» ; (штатный); Профессор ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5703&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Методологические основы научной в области охраны здоровья граждан&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5703&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Стоматология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5703&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Оценка диссертации на предмет ее соответствия критериям&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5772&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Эргономика в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5772&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Гигиена и эпидемиология чрезвычайных ситуаций&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5772&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Общественное здоровье и здравоохранение&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5771&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Гигиена и эпидемиология чрезвычайных ситуаций&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Эргономика в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Стоматология терапевтическая&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Общественное здоровье и здравоохранение&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Стоматология общей практики&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Гигиена и эпидемиология чрезвычайных ситуаций&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5706&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Эргономика в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5706&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Гигиена и эпидемиология чрезвычайных ситуаций&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5706&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Общественное здоровье и здравоохранение&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Эргономика в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Гигиена и эпидемиология чрезвычайных ситуаций&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Общественное здоровье и здравоохранение&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Эргономика в челюстно-лицевой хирургии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Гигиена и эпидемиология чрезвычайных ситуаций&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Общественное здоровье и здравоохранение&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Интернатура «Стоматология»; </uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология</uf_employeequalifica>
+			<uf_degree>Доктор медицинских наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>480</uf_genexperience>
+			<uf_specexperience>60</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>dentmaster@dentmaster.ru</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>1</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>+7(383) 3047900</uf_phone>
+			<uf_specexperience_b>01.09.2018</uf_specexperience_b>
+			<uf_genexperience_b>01.01.1983</uf_genexperience_b>
+		</item>
+		<item>
+			<id>47</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023);; «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); «Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации», (54 ч., 05.05.2023)</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Бадалян Вардитер Агабековна</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5703&quot;,&quot;disc&quot;:&quot;Научно-исследовательская практика&quot;},{&quot;opp&quot;:&quot;5703&quot;,&quot;disc&quot;:&quot;Статистические методы обработки результатов научного исследования в области охраны здоровья граждан&quot;},{&quot;opp&quot;:&quot;5703&quot;,&quot;disc&quot;:&quot;Оценка диссертации на предмет ее соответствия критериям&quot;},{&quot;opp&quot;:&quot;5705&quot;,&quot;disc&quot;:&quot;Основы стоматологии хирургической&quot;},{&quot;opp&quot;:&quot;5705&quot;,&quot;disc&quot;:&quot;Основы стоматологии ортопедической&quot;},{&quot;opp&quot;:&quot;5705&quot;,&quot;disc&quot;:&quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;вариативная часть&amp;#41;&quot;},{&quot;opp&quot;:&quot;5706&quot;,&quot;disc&quot;:&quot;Стоматология хирургическая&quot;},{&quot;opp&quot;:&quot;5706&quot;,&quot;disc&quot;:&quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&quot;},{&quot;opp&quot;:&quot;5770&quot;,&quot;disc&quot;:&quot;Стоматология ортопедическая&quot;},{&quot;opp&quot;:&quot;5770&quot;,&quot;disc&quot;:&quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&quot;},{&quot;opp&quot;:&quot;5773&quot;,&quot;disc&quot;:&quot;Основы стоматологии хирургической&quot;},{&quot;opp&quot;:&quot;5773&quot;,&quot;disc&quot;:&quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;вариативная часть&amp;#41;&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет ; Клиническая ординатура «Терапевтическая стоматология» </uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач- стоматолог-терапевт</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология терапевтическая; </uf_employeequalifica>
+			<uf_degree>Доктор медицинских наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>180</uf_genexperience>
+			<uf_specexperience>144</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2008</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2011</uf_genexperience_b>
+		</item>
+		<item>
+			<id>49</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023);; «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); «Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации», (54 ч., 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Папенко Татьяна Михайловна</uf_fio>
+			<uf_post>Декан стоматологического факультета ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5703&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Научная деятельность, направленная на подготовку диссертации к защите&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5703&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Подготовка публикаций, излагающих основные научные результаты диссертации&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5703&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Оценка диссертации на предмет ее соответствия критериям&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Общественное здоровье и здравоохранение&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5771&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;вариативная часть&amp;#41;&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Стоматология терапевтическая&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Эргономика в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Стоматология общей практики&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Стоматология терапевтическая&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Стоматология терапевтическая&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;вариативная часть&amp;#41;&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5771&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Общественное здоровье и здравоохранение&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5772&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;вариативная часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Клиническая ординатура «Стоматология терапевтическая»  </uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог-терапевт</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология терапевтическая</uf_employeequalifica>
+			<uf_degree>Кандидат медицинских наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>252</uf_genexperience>
+			<uf_specexperience>60</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.09.2003</uf_specexperience_b>
+			<uf_genexperience_b>01.01.2002</uf_genexperience_b>
+		</item>
+		<item>
+			<id>50</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Тишкина Ольга Сергеевна</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5703&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Оценка диссертации на предмет ее соответствия критериям&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5771&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Стоматология детская&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5771&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Эндодонтия&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Реставрационные технологии в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Стоматология общей практики&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; ординатура «стоматология терапевтическая»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог-терапевт; </uf_teachingqual>
+			<uf_employeequalifica>Стоматология,; Стоматология терапевтическая; </uf_employeequalifica>
+			<uf_degree>Кандидат медицинских наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>216</uf_genexperience>
+			<uf_specexperience>108</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2005</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2014</uf_genexperience_b>
+		</item>
+		<item>
+			<id>51</id>
+			<uf_qualification> «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); «Обеспечение доступности профессионального образования для инвалидов и лиц с ОВЗ» (72 ч, 03.12.2018);</uf_qualification>
+			<uf_profdevelopment>Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Жукова Ольга Ивановна</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5703&quot;,&quot;disc&quot;:&quot;История и философия науки&quot;},{&quot;opp&quot;:&quot;6068&quot;,&quot;disc&quot;:&quot;Философия и методология научного знания &quot;},{&quot;opp&quot;:&quot;5774&quot;,&quot;disc&quot;:&quot;Иностранный язык&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; </uf_teachinglevel>
+			<uf_teachingqual>Историк, преподаватель истории и обществоведения</uf_teachingqual>
+			<uf_employeequalifica>Философия</uf_employeequalifica>
+			<uf_degree>доктор философских наук</uf_degree>
+			<uf_academstat>профессор</uf_academstat>
+			<uf_genexperience>432</uf_genexperience>
+			<uf_specexperience>396</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>52</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); «Особенности инклюзивного образования в вузе» (72 ч, 15.02.2019);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Фомин Андрей Геннадьевич</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР» (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5703&quot;,&quot;disc&quot;:&quot;Иностранный язык&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Философия&quot;},{&quot;opp&quot;:&quot;6068&quot;,&quot;disc&quot;:&quot;Иностранный язык &quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Общий уход за больными&quot;},{&quot;opp&quot;:&quot;5774&quot;,&quot;disc&quot;:&quot;Иностранный язык&quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Анатомия и физиология человека&quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Языковая грамотностьи культура речи в профессиональной деятельности&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Анатомия и физиология человека&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Языковая грамотностьи культура речи в профессиональной деятельности&quot;},{&quot;opp&quot;:&quot;5999&quot;,&quot;disc&quot;:&quot;Иностранный язык в профессиональной деятельности&quot;},{&quot;opp&quot;:&quot;5999&quot;,&quot;disc&quot;:&quot;Основы латинского языка с медицинской терминологией&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет</uf_teachinglevel>
+			<uf_teachingqual>Филолог, преподаватель английского языка и литературы</uf_teachingqual>
+			<uf_employeequalifica>Филология</uf_employeequalifica>
+			<uf_degree>доктор филологических наук</uf_degree>
+			<uf_academstat>профессор</uf_academstat>
+			<uf_genexperience>372</uf_genexperience>
+			<uf_specexperience>372</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>54</id>
+			<uf_qualification> «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Черненок Наталья Геннадьевна</uf_fio>
+			<uf_post>Доцент ЧОУ ВО «НМСИ ДЕНТМАСТЕР» </uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Педагогика&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5772&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Педагогика&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5771&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Педагогика&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Педагогика&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5706&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Педагогика&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Педагогика&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Педагогика&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет</uf_teachinglevel>
+			<uf_teachingqual>Инженер-педагог</uf_teachingqual>
+			<uf_employeequalifica>Профессиональное обучение и технические дисциплины</uf_employeequalifica>
+			<uf_degree>Кандидат педагогических наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>204</uf_genexperience>
+			<uf_specexperience>132</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2006</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2012</uf_genexperience_b>
+		</item>
+		<item>
+			<id>55</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); «Организация здравоохранения и общественное здоровье» (с присвоением квалификации «Организация здравоохранения и общественное здоровье», 576 ч., 07.03.2020);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Резакова Мария Викторовна</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Медико-социальная экспертиза, реабилитация и абилитация инвалидов&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5772&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Рентгенология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5772&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Медико-социальная экспертиза, реабилитация и абилитация инвалидов&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5771&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Медико-социальная экспертиза, реабилитация и абилитация инвалидов&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Медико-социальная экспертиза, реабилитация и абилитация инвалидов&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Рентгенология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Диагностика и лечение пациентов с короновирусной инфекцией&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5706&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Медико-социальная экспертиза, реабилитация и абилитация инвалидов&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Медико-социальная экспертиза, реабилитация и абилитация инвалидов&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Медико-социальная экспертиза, реабилитация и абилитация инвалидов &amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Стоматология терапевтическая&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5771&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Диагностика и лечение пациентов с коронавирусной инфекцией&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5772&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Диагностика и лечение пациентов с коронавирусной инфекцией&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Диагностика и лечение пациентов с коронавирусной инфекцией&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Ренгенология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Диагностика и лечение пациентов с коронавирусной инфекцией &amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5706&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Диагностика и лечение пациентов с коронавирусной инфекцией&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; интернатура «Рентгенология»</uf_teachinglevel>
+			<uf_teachingqual>Врач ; Врач-рентгенолог</uf_teachingqual>
+			<uf_employeequalifica>Лечебное дело; Рентгенология</uf_employeequalifica>
+			<uf_degree>Кандидат медицинских наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>204</uf_genexperience>
+			<uf_specexperience>96</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2006</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2015</uf_genexperience_b>
+		</item>
+		<item>
+			<id>57</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023);Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Организация здравоохранения и общественное здоровье» (с присвоением квалификации «Главный врач (начальник) медицинской организации» 576 ч, 30.12.2019); «Стоматология терапевтическая» (с присвоением квалификации «врач-стоматолог-терапевт», 576 ч, 24.05.2013);  «Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Кобиясова Ирина Владимировна</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;6068&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Философия и методология научного знания &amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет,; Клиническая ординатура «Детская стоматология»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог детский</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология детская</uf_employeequalifica>
+			<uf_degree>Кандидат медицинских наук; </uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>216</uf_genexperience>
+			<uf_specexperience>216</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>58</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Тикунова Нина Викторовна</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Микробиология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5772&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Микробиология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5771&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Микробиология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Микробиология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;6069&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Микробиология, вирусология, иммунология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;6069&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Биоэтика в науке и медицине&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;6069&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Философия&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5879&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Общий уход за больными&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5879&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Микробиология, вирусология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5879&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Микробиология и иммунология в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5706&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Микробиология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Микробиология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Микробиология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5997&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Основы микробиологии и иммунологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5997&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Генетика с основами медицинской генетики&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5997&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Анатомия и физиология человека&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5998&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Анатомия и физиология человека&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5998&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Биомедицинская этика&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5999&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;История России&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5999&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Биомедицинская этика&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет</uf_teachinglevel>
+			<uf_teachingqual>Микробиолог</uf_teachingqual>
+			<uf_employeequalifica>Биология</uf_employeequalifica>
+			<uf_degree>Доктор биологических наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>456</uf_genexperience>
+			<uf_specexperience>456</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.1985</uf_specexperience_b>
+			<uf_genexperience_b>01.09.1985</uf_genexperience_b>
+		</item>
+		<item>
+			<id>59</id>
+			<uf_qualification>«ИКТ в электронной информационно-образовательной среде» (24 ч, 02.03.2020); «Навыки оказания первой помощи» (24 ч, 13.12.2019); «Особенности инклюзивного образования в вузе» (36 ч, 16.12.2021);  Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Практическая психология» (500 ч, 22.03.1997);</uf_profdevelopment>
+			<uf_fio>Морозова Ирина Станиславовна</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Философия&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет</uf_teachinglevel>
+			<uf_teachingqual>Историк, преподаватель</uf_teachingqual>
+			<uf_employeequalifica>История</uf_employeequalifica>
+			<uf_degree>Доктор психологических наук</uf_degree>
+			<uf_academstat>Профессор</uf_academstat>
+			<uf_genexperience>348</uf_genexperience>
+			<uf_specexperience>276</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>60</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 часов, 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Регузов Евгений Геннадьевич</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Интернатура «Стоматология ортопедическая»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог-ортопед</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология ортопедическая</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>336</uf_genexperience>
+			<uf_specexperience>48</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.1994</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2019</uf_genexperience_b>
+		</item>
+		<item>
+			<id>61</id>
+			<uf_qualification> «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Ковалев Роман Олегович</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;вариативная часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Ординатура «Стоматология ортопедическая»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог-ортопед</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология ортопедическая</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>180</uf_genexperience>
+			<uf_specexperience>12</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2008</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2021</uf_genexperience_b>
+		</item>
+		<item>
+			<id>62</id>
+			<uf_qualification> «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Стоматология ортопедическая» (с присвоением квалификации «Врач-стоматолог ортопед», 576 ч, 01.06.2006); «Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Мирошниченко Алексей Михайлович</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; интернатура «Стоматология»; </uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог; </uf_teachingqual>
+			<uf_employeequalifica>Стоматология,; Стоматология; </uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>216</uf_genexperience>
+			<uf_specexperience>12</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2005</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2021</uf_genexperience_b>
+		</item>
+		<item>
+			<id>63</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Ленденгольц Жанна Арнольдовна</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5772&quot;,&quot;disc&quot;:&quot;Ортодонтия&quot;},{&quot;opp&quot;:&quot;5772&quot;,&quot;disc&quot;:&quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&quot;},{&quot;opp&quot;:&quot;5773&quot;,&quot;disc&quot;:&quot;Основы ортодонтии&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Клиническая ординатура «Ортодонтия»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-ортодонт; </uf_teachingqual>
+			<uf_employeequalifica>Стоматология,; Ортодонтия; </uf_employeequalifica>
+			<uf_degree>Кандидат медицинских наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>180</uf_genexperience>
+			<uf_specexperience>120</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2008</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2013</uf_genexperience_b>
+		</item>
+		<item>
+			<id>64</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Левщанова Ольга Евгеньевна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5772&quot;,&quot;disc&quot;:&quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; ординатура «Ортодонтия»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-ортодонт; </uf_teachingqual>
+			<uf_employeequalifica>Стоматология,; Ортодонтия; </uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>144</uf_genexperience>
+			<uf_specexperience>12</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2011</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2021</uf_genexperience_b>
+		</item>
+		<item>
+			<id>65</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Даниленко Дарина Валерьевна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5772&quot;,&quot;disc&quot;:&quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; ординатура «Ортодонтия»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-ортодонт; </uf_teachingqual>
+			<uf_employeequalifica>Стоматология,; Ортодонтия; </uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>120</uf_genexperience>
+			<uf_specexperience>12</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2013</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2021</uf_genexperience_b>
+		</item>
+		<item>
+			<id>66</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023);
+Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); 
+Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Семиволова Анастасия Владимировна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5772&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5879&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Введение в ортодонтию&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; ординатура ; «Ортодонтия»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-ортодонт; </uf_teachingqual>
+			<uf_employeequalifica>Стоматология,; Ортодонтия; </uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>120</uf_genexperience>
+			<uf_specexperience>12</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2013</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2021</uf_genexperience_b>
+		</item>
+		<item>
+			<id>68</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия (36 ч., 17.02.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Бичун Антон Борисович</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Неотложные состояния в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Неотложные состояния в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5706&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Неотложные состояния в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5770&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Неотложные состояния в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5772&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Неотложные состояния в стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Анестезиология и реаниматология&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Ординатура «Анестезиология и реаниматология»; </uf_teachinglevel>
+			<uf_teachingqual>Врач ; Врач анестезиолог-реаниматолог</uf_teachingqual>
+			<uf_employeequalifica>Педиатрия; Анестезиология-реаниматология</uf_employeequalifica>
+			<uf_degree>Кандидат медицинских наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>504</uf_genexperience>
+			<uf_specexperience>348</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.1981</uf_specexperience_b>
+			<uf_genexperience_b>01.09.1994</uf_genexperience_b>
+		</item>
+		<item>
+			<id>69</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия (36 ч., 17.02.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Дроздова Валерия Николаевна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР» </uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5771&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Ординатура «стоматология детская»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог детский; </uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология детская  ; </uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>96</uf_genexperience>
+			<uf_specexperience>24</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2015</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2021</uf_genexperience_b>
+		</item>
+		<item>
+			<id>70</id>
+			<uf_qualification>«Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации», (54 ч., 05.05.2023);</uf_qualification>
+			<uf_profdevelopment />
+			<uf_fio>Агарков Сергей Юрьевич</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Ординатура «стоматология терапевтическая»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог- терапевт; </uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология терапевтическая ; </uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>180</uf_genexperience>
+			<uf_specexperience>36</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2008</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2020</uf_genexperience_b>
+		</item>
+		<item>
+			<id>71</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</uf_qualification>
+			<uf_profdevelopment> «Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Конфедератова Яна Сергеевна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР» </uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5705&quot;,&quot;disc&quot;:&quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Ординатура «стоматология терапевтическая»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог-терапевт; </uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология терапевтическая; </uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>288</uf_genexperience>
+			<uf_specexperience>36</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.1999</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2020</uf_genexperience_b>
+		</item>
+		<item>
+			<id>72</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 часов, 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Ефремова Евгения Сергеевна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Ординатура «стоматология терапевтическая»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог-терапевт; </uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология терапевтическая; </uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>84</uf_genexperience>
+			<uf_specexperience>36</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2016</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2020</uf_genexperience_b>
+		</item>
+		<item>
+			<id>73</id>
+			<uf_qualification>Удостоверение о повышении квалификации № 422407831825 от 03.12.2018 г. по программе «Использование информационно-коммуникационных технологий в условиях «Электронной информационно-образовательной среды вуза», 36 час., ФГБОУ ВО  «Кемеровский государственный институт культуры» ;
+ Удостоверение о повышении квалификации № 423100991362 от  06.01.2020 г. по программе «ИКТ в электронной информационно-образовательной среде», 24 час., ФГБОУ ВО «Кемеровский государственный университет» ; 
+Удостоверение о повышении квалификации № ПК-1525 от 17.04.2020 г. по программе «Современные педагогические ; технологии», 72 час., ФГБОУ ВО «Кемеровский государственный университет» ; 
+Удостоверение о повышении  квалификации № 435 от 26.06.2020 г. по программе «Навыки оказания первой помощи», 24 час., ФГБОУ ВО «Кемеровский государственный университет» ; 
+Удостоверение о повышении квалификации № 031122142235 от 03.11.2022 г. по программе «Педагогическая деятельность в  цифровой образовательной среде», 16 ; час., ФГБОУ ВО «Кемеровский государственный университет» ; 
+Удостоверение о повышении  квалификации № 141122142164 от  14.11.2022 г. по программе  «Особенности инклюзивного ; образования в вузе (72 ч.)», 72 час., ФГБОУ ВО «Кемеровский  государственный университет» ;
+ Удостоверение о повышении  квалификации № 070423142015 от  10.04.2023 г. по программе  «Современные образовательные  технологии и методы оценки,  андрагогика высшего медицинского образования», 72 час., ФГБОУ ВО  «Кемеровский государственный университет»</uf_qualification>
+			<uf_profdevelopment />
+			<uf_fio>Казаков Евгений Федорович</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Философия&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Философия&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет,; </uf_teachinglevel>
+			<uf_teachingqual>историк, преподаватель истории и обществоведения ; </uf_teachingqual>
+			<uf_employeequalifica>История; </uf_employeequalifica>
+			<uf_degree>доктор культорологии; </uf_degree>
+			<uf_academstat>профессор</uf_academstat>
+			<uf_genexperience>420</uf_genexperience>
+			<uf_specexperience>408</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>74</id>
+			<uf_qualification>Удостоверение о повышении квалификации № 447 от 26.06.2020 г. по программе «Навыки оказания первой помощи», 24 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot;;
+Удостоверение о повышении квалификации № 181121142424 от 18.11.2021 г. по программе «Педагогическая деятельность в цифровой образовательной среде», 16 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot;  ;
+Удостоверение о повышении квалификации № 161221142560 от 16.12.2021 г. по программе «Особенности инклюзивного образования в вузе (36 ч.)», 36 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot;  ;
+Удостоверение о повышении квалификации № 031122142147 от 03.11.2022 г. по программе «ИКТ в электронной информационно-образовательной среде (24 ч.)», 24 час., ФГБОУ ВО \&quot;Кемеровский  государственный университет\&quot; </uf_qualification>
+			<uf_profdevelopment />
+			<uf_fio>Ермолаев Алексей Николаевич</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;История России&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Основы российской гсударственности&quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;История России&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;История России&quot;},{&quot;opp&quot;:&quot;5999&quot;,&quot;disc&quot;:&quot;История России&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет</uf_teachinglevel>
+			<uf_teachingqual>Историк, преподаватель</uf_teachingqual>
+			<uf_employeequalifica>История</uf_employeequalifica>
+			<uf_degree>Доктор исторических наук</uf_degree>
+			<uf_academstat>Доцент</uf_academstat>
+			<uf_genexperience>192</uf_genexperience>
+			<uf_specexperience>192</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>75</id>
+			<uf_qualification>Удостоверение о повышении квалификации № 36 от 03.10.2022 «Обучение и проверка знаний по охране труда работников образовательных организаций», НП «ЦПО «ДентМастер»; «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); </uf_qualification>
+			<uf_profdevelopment />
+			<uf_fio>Зубков Валерий Витальевич</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;БЖД&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Контроль и безопасность мед.деят&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Общий уход за больными&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Медицина катастроф&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Контроль качества и безопасность медицинской деятельности&quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Безопасность жизнедеятельности&quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Анатомия и физиология человека&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Безопасность жизнедеятельности&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Анатомия и физиология человека&quot;},{&quot;opp&quot;:&quot;5999&quot;,&quot;disc&quot;:&quot;Безопасность жизнедеятельности&quot;},{&quot;opp&quot;:&quot;5999&quot;,&quot;disc&quot;:&quot;История России&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет</uf_teachinglevel>
+			<uf_teachingqual>Инженер-гидротехник</uf_teachingqual>
+			<uf_employeequalifica>Гидротехническое строительство</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>24</uf_genexperience>
+			<uf_specexperience>24</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>76</id>
+			<uf_qualification>Удостоверение о повышении квалификации № 2323296626SI от 24.12.2021 г. по программе «К успешной карьере через цифровую гигиену и информационный стресс-менеджмент», 72 час., ФГБОУ ВО \&quot;Тюменский государственный университет\&quot;;
+Удостоверение о повышении квалификации № 2205959059SI от 27.12.2021 г. по программе «Практическая психология», 36 час., ФГБОУ ВО \&quot;Тюменский государственный университет\&quot;;
+Удостоверение о повышении квалификации № 236 от 04.05.2022 г. по программе «Охрана труда (40 ч.)», 40 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot; ;
+Удостоверение о повышении квалификации № 070423142017 от 10.04.2023 г. по программе «Современные образовательные технологии и методы оценки, андрагогика высшего медицинского образования», 72 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot;;
+Удостоверение о повышении квалификации № 722023003353 от 26.05.2023 г. по программе «Введение в игровые технологии в высшем образовании», 24 час., ФГБОУ ВО \&quot;Тюменский государственный университет\&quot; ;
+Удостоверение о повышении квалификации № 280623142016 от 28.06.2023 г. по программе «Университетское управление в контексте неопределенности: основы программирования и практики развития», 16 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot;</uf_qualification>
+			<uf_profdevelopment />
+			<uf_fio>Иванова Светлана Юрьевна</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Физическая культура и спорт&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Лечебная физкультура&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Фитнес&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Физическая культура и спорт&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Абстрактно-игровые виды спорта&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Лечебная физкультура&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Фитнес&quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Физическая культура&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Физическая культура&quot;},{&quot;opp&quot;:&quot;5999&quot;,&quot;disc&quot;:&quot;Физическая культура&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет</uf_teachinglevel>
+			<uf_teachingqual>Преподаватель, тренер</uf_teachingqual>
+			<uf_employeequalifica>Физическая культура и спорт</uf_employeequalifica>
+			<uf_degree>Кандидат педагогических наук</uf_degree>
+			<uf_academstat>Доцент</uf_academstat>
+			<uf_genexperience>240</uf_genexperience>
+			<uf_specexperience>192</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>77</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>Профессиональная переподготовка «Преподаватель информационных систем и технологий», регистрационный номер 0011, от 15.01.2019 г., ЧУ ВО «Высшая школа предпринимательства (институт); «Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Ткачев Павел Сергеевич</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Информационные системы и технологии в медицинских организациях&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Информационные системы и технологии в медицинских организациях&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет</uf_teachinglevel>
+			<uf_teachingqual>Экономист-менеджер</uf_teachingqual>
+			<uf_employeequalifica>Экономика и управление на предприятии туризма и гостиничного хозяйства </uf_employeequalifica>
+			<uf_degree>Кандидат философских наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>120</uf_genexperience>
+			<uf_specexperience>120</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2013</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2013</uf_genexperience_b>
+		</item>
+		<item>
+			<id>78</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Беласик Ольга Александровна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Основы сестринского дела&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Сестринское дело в терапии&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Сестринское дело в педиатрии&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Сестринское дело в хирургии&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Сестринское дело в акушерстве и гинекологии&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Сестринское дело при инфекционных болезнях&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Сестринское дело в семейной медицине&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Сестринское дело в неврологии&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Сестринское дело в стоматологии&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Учебная практика “Сестринский уход”&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Учебная практика “Ознакомительная практика”&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Учебная практика “Манипуляционная практика”&quot;},{&quot;opp&quot;:&quot;6068&quot;,&quot;disc&quot;:&quot;Учебная практика&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Общий уход за больными&quot;},{&quot;opp&quot;:&quot;6068&quot;,&quot;disc&quot;:&quot;Философия и методология научного знания &quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Анатомия и физиология человека&quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Ведение медицинской документации&quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Анатомия и физиология человека&quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Итоговая аттестация&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Анатомия и физиология человека&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Итоговая аттестация&quot;},{&quot;opp&quot;:&quot;5999&quot;,&quot;disc&quot;:&quot;Организация трудовой деятельности и ведение медицинской документации&quot;},{&quot;opp&quot;:&quot;5999&quot;,&quot;disc&quot;:&quot;Оказание медицинской помощи в экстренной форме&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Сестринское дело в дерматовенерологии&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Теория сестринского дела&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Учебная практика &amp;#40;Практика по получению первичных профессиональных умений и навыков на должностях среднего медицинского персонала&amp;#41;&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование – бакалавриат; Среднее профессиональное образование</uf_teachinglevel>
+			<uf_teachingqual>Менеджмент; Сестринское дело</uf_teachingqual>
+			<uf_employeequalifica>Менеджмент; Медицинская сестра</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>36</uf_genexperience>
+			<uf_specexperience>36</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>79</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Щерба Алексей Владимирович</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5705&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Практика &amp;#40;базовая&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Интернатура «Стоматология»; Ординатура «Стоматология терапевтическая»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог ; Врач-стоматолог-терапевт</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология; Стоматология терапевтическая</uf_employeequalifica>
+			<uf_degree>Отсутствует </uf_degree>
+			<uf_academstat>Отсутствует </uf_academstat>
+			<uf_genexperience>36</uf_genexperience>
+			<uf_specexperience>36</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>80</id>
+			<uf_qualification> «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>Сертификат специалиста «Управление и экономика фармации» от 12.10.2020 г, ФГБОУ ВО «Алтайский государственный медицинский университет»; «Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Метельская Екатерина Александровна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Фармокология&quot;},{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Медицинское и фарм.товаровед.&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Фармакология&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Клиническая фармакология в стоматологии&quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Фармакология&quot;},{&quot;opp&quot;:&quot;5999&quot;,&quot;disc&quot;:&quot;Фармакология&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет ; Интернатура </uf_teachinglevel>
+			<uf_teachingqual>Провизор; Врач (провизор)</uf_teachingqual>
+			<uf_employeequalifica>Фармация; Управление и экономика фармации</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>24</uf_genexperience>
+			<uf_specexperience>24</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>81</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Агаркова Ксения Вячеславовна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО НМСИ ДЕНТМАСТЕР (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;6069&quot;,&quot;disc&quot;:&quot;Производственная “Практика клиническая практика”&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Учебная практика &amp;#40;Ознакомительная практика&amp;#41;&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Производственная практика &amp;#40;Клиническая практика по стоматологии общей практики&amp;#41;&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Интернатура «Стоматология»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог общей практики</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>60</uf_genexperience>
+			<uf_specexperience>60</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>83</id>
+			<uf_qualification>Удостоверение о повышении квалификации № 464 от 22.06.2020 г. по программе «Навыки оказания первой помощи», 24 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot;;
+Удостоверение о повышении квалификации № ПКС-187 от 01.10.2020 г. по программе «Современные методы и модели исследования сложных систем», 36 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot;;
+Удостоверение о повышении квалификации № 181121142102 от 18.11.2021 г. по программе «Педагогическая деятельность в цифровой образовательной среде», 16 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot;;
+Удостоверение о повышении квалификации № 161221142117 от 16.12.2021 г. по программе «Особенности инклюзивного образования в вузе (36 ч.)», 36 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot;;
+Удостоверение о повышении квалификации № 160300036826 от 27.06.2022 г. по программе «Цифровые технологии в преподавании профильных дисциплин», 144 час., АНО ВО \&quot;Университет Иннополис\&quot; - Лечебное дело (Оказание первичной медико-санитарной помощи взрослому населению в амбулаторных условиях);
+Удостоверение о повышении квалификации № 220223142093 от 22.02.2023 г. по программе «Охрана труда (16 ч.)», 16 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot;;
+Удостоверение о повышении квалификации № 070423142004 от 10.04.2023 г. по программе «Современные образовательные технологии и методы оценки, андрагогика высшего медицинского образования», 72 час., ФГБОУ ВО \&quot;Кемеровский государственный университет\&quot;;
+Удостоверение о повышении квалификации № 013927 055290 от 02.05.2023 г. по программе «Анализ данных в биологии», 72 час., ФГАОУ ВО \&quot;Балтийский федеральный университет имени Иммануила Канта\&quot;</uf_qualification>
+			<uf_profdevelopment />
+			<uf_fio>Бастрон Елена Владимировна</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Физика, математика&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-магистратура; </uf_teachinglevel>
+			<uf_teachingqual>Магистр, математик, преподаватель</uf_teachingqual>
+			<uf_employeequalifica>Математика</uf_employeequalifica>
+			<uf_degree>Кандидат технических наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>336</uf_genexperience>
+			<uf_specexperience>336</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>84</id>
+			<uf_qualification> «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Минов Дмитрий Олегович</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5704&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;вариативная часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Интернатура «Стоматология общей практики»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог общей практики</uf_teachingqual>
+			<uf_employeequalifica>Стоматология ; Стоматология общей практики</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>96</uf_genexperience>
+			<uf_specexperience>36</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2015</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2020</uf_genexperience_b>
+		</item>
+		<item>
+			<id>85</id>
+			<uf_qualification>«Информационные технологии в науке и образовании» от 02.03.2019;
+«Организация и реализация программ подготовки обучающихся с ограниченными возможностями здоровья в условиях учреждения высшего образования» от 07.12.2019;
+«Оказание первой помощи при неотложных состояниях» от 26.12.2019;
+«Применение симуляционных технологий в образовательном процессе» от 09.12.2022;</uf_qualification>
+			<uf_profdevelopment>Профессиональная переподготовка «Преподаватель высшей школы» от 07.06.2016; </uf_profdevelopment>
+			<uf_fio>Саковчук Олег Александрович</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Патологическая анатомия, клиническая патологическая анатомия&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Ординатура «Судебно-медицинская экспертиза»</uf_teachinglevel>
+			<uf_teachingqual>Врач; Врач судебно-медицинский эксперт</uf_teachingqual>
+			<uf_employeequalifica>Лечебное дело; Судебно-медицинская экспертизы </uf_employeequalifica>
+			<uf_degree>Доктор медицинских наук</uf_degree>
+			<uf_academstat>Доцент</uf_academstat>
+			<uf_genexperience>204</uf_genexperience>
+			<uf_specexperience>204</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>192</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>86</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Дудкин Виктор Сергеевич</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет ; Интернатура «Онкология»; Ординатура «Хирургия»; Ординатура «Челюстно-лицевая хирургия»</uf_teachinglevel>
+			<uf_teachingqual>Врач ; Врач-онколог; Врач-хирург; Врач-челюстно-лицевой хирург</uf_teachingqual>
+			<uf_employeequalifica>Лечебное дело; Онкология; Хирургия; Челюстно-лицевая хирургия</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует </uf_academstat>
+			<uf_genexperience>120</uf_genexperience>
+			<uf_specexperience>120</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2008</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2021</uf_genexperience_b>
+		</item>
+		<item>
+			<id>87</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>Профессиональная переподготовка «Рентгенология» 576 часов, от 12.06.1998; «Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Калинин Евгений Петрович</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Лучевая диагностика в стоматологии&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование – специалитет; </uf_teachinglevel>
+			<uf_teachingqual>Врач</uf_teachingqual>
+			<uf_employeequalifica>Лечебное дело</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует </uf_academstat>
+			<uf_genexperience>312</uf_genexperience>
+			<uf_specexperience>312</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>312</uf_medexperience>
+			<uf_childexperience>36</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>88</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Вальгер Анна Сергеевна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Оториноларингология&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование – специалитет; Интернатура «Оториноларингология»</uf_teachinglevel>
+			<uf_teachingqual>Врач-педиатр; Врач-оториноларинголог</uf_teachingqual>
+			<uf_employeequalifica>Педиатрия</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует </uf_academstat>
+			<uf_genexperience>36</uf_genexperience>
+			<uf_specexperience>36</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>89</id>
+			<uf_qualification>Сертификат специалиста № 0142241903760 от 31.10.2020 г. по специальности «Психиатрия-наркология», ФГБОУ ВО \&quot;Кемеровский государственный медицинский университет\&quot; Министерства здравоохранения Российской Федерации ; Удостоверение о повышении квалификации № 422412825017 от 31.10.2020 г. по программе «Психиатрия-наркология», 144 час., ФГБОУ ВО \&quot;Кемеровский государственный медицинский университет\&quot; Министерства здравоохранения Российской Федерации ; Удостоверение о повышении квалификации № 422416156778 от 15.04.2023 г. по программе «Информационно компьютерные технологии в медицинском образовании», 72 час., ГАУЗ \&quot;Кузбасская областная клиническая больница имени С.В. Беляева\&quot;; Удостоверение о повышении квалификации № 422418929181 от 15.04.2023 г. по программе «Педагогика высшей школы», 72 час., ГАУЗ \&quot;Кузбасская областная клиническая больница имени С.В. Беляева\&quot;</uf_qualification>
+			<uf_profdevelopment />
+			<uf_fio>Дубенский Сергей Юрьевич</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»; (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Неврология, нейрохирургия&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Интернатура</uf_teachinglevel>
+			<uf_teachingqual>Врач психиатр-нарколог</uf_teachingqual>
+			<uf_employeequalifica>Лечебное дело ; Психиатрия</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>408</uf_genexperience>
+			<uf_specexperience>408</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>90</id>
+			<uf_qualification> «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия (36 ч., 17.02.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Гатилова Татьяна Андреевна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО НМСИ ДЕНТМАСТЕР (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5879&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Заболевания слизистой оболочки рта и геронтостоматология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5998&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Гигиена с экологией человека&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5999&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Гигиена с экологией человека&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5999&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;История России&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Интернатура «Стоматология»; Ординатура «Челюстно-лицевая хирургия»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог общей практики; Врач-челюстно-лицевой хирург</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология; Челюстно-лицевая хирургия </uf_employeequalifica>
+			<uf_degree>Отсутствует </uf_degree>
+			<uf_academstat>Отсутствует </uf_academstat>
+			<uf_genexperience>60</uf_genexperience>
+			<uf_specexperience>60</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>91</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия (36 ч., 17.02.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>Профессиональная переподготовка «Стоматология хирургическая» от 25.12.2012, ФГБОУ ВПО НГМУ Минздравсоцразвития; «Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Балев Дмитрий Олегович</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО НМСИ ДЕНТМАСТЕР </uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5879&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Пропедевтика хирургической стоматологии&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5879&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Хирургическая стоматология&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5879&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная практика &amp;#40;Практика по получению профессиональных умений и опыта профессиональной деятельности &amp;#40;по хирургической стоматологии&amp;#41;&amp;#41;&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5706&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5879&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Итоговая аттестация&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Интернатура «Стоматология»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>36</uf_genexperience>
+			<uf_specexperience>36</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2013</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2021</uf_genexperience_b>
+		</item>
+		<item>
+			<id>92</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия (36 ч., 17.02.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Горячкин Александр Михайлович</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО НМСИ ДЕНТМАСТЕР </uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитете; Интернатура «Стоматология»; Ординатура «Челюстно-лицевая хирургия»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог; Врач-челюстно-лицевой хирург</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология; Челюстно-лицевая хирургия</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>180</uf_genexperience>
+			<uf_specexperience>144</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2008</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2012</uf_genexperience_b>
+		</item>
+		<item>
+			<id>93</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия (36 ч., 17.02.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>Профессиональная переподготовка «Стоматология отртопедическая» от 25.11.2012, ФГБОУ ВПО НГМУ Минздравсоцразвития; «Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Левщанов Дмитрий Анатольевич</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО НМСИ ДЕНТМАСТЕР (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Материаловедение в стоматологии&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Пропедевтика ортопедической стоматологии&quot;},{&quot;opp&quot;:&quot;5879&quot;,&quot;disc&quot;:&quot;Ортопедическая стоматология&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Анатомия и физиология человека&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Итоговая аттестация&quot;},{&quot;opp&quot;:&quot;5999&quot;,&quot;disc&quot;:&quot;История России&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Интернатура «Стоматология»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>36</uf_genexperience>
+			<uf_specexperience>36</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>97</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023)</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Пахомов Олег Валентинович</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР» </uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5706&quot;,&quot;disc&quot;:&quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; ; Ординатура «стоматология хирургическая»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; ; Врач-стоматолог- хирург; </uf_teachingqual>
+			<uf_employeequalifica>Стоматология; ; Стоматология хирургическая ; </uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>300</uf_genexperience>
+			<uf_specexperience>24</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.1998</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2021</uf_genexperience_b>
+		</item>
+		<item>
+			<id>98</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Федотов Роман Николаевич</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Челюстно-лицевая хирургия&amp;quot;},{&amp;quot;opp&amp;quot;:&amp;quot;5773&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Интернатура «Стоматология»; Ординатура «Челюстно-лицевая хирургия»</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог; Врач-челюстно-лицевой хирург</uf_teachingqual>
+			<uf_employeequalifica>Стоматология; Стоматология; Челюстно-лицевая хирургия</uf_employeequalifica>
+			<uf_degree>Кандидат медицинских наук</uf_degree>
+			<uf_academstat>Отсутствует</uf_academstat>
+			<uf_genexperience>168</uf_genexperience>
+			<uf_specexperience>252</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b>01.01.2009</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2002</uf_genexperience_b>
+		</item>
+		<item>
+			<id>99</id>
+			<uf_qualification> «Навыки оказания первой помощи» (24 ч, 07.02.2020); «Особенности инклюзивного образования в вузе» (36 ч, 16.12.2021); «Электронная информационно-образовательная среда вуза» (24 ч, 16.11.2018);</uf_qualification>
+			<uf_profdevelopment>«Преподаватель высшей школы» (980 ч, 30.04.2019);</uf_profdevelopment>
+			<uf_fio>Жидкова Елена Анатольевна;</uf_fio>
+			<uf_post>Старший преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР» (на условиях внешнего совместительства</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5774&quot;,&quot;disc&quot;:&quot;Управление проектами&quot;},{&quot;opp&quot;:&quot;5774&quot;,&quot;disc&quot;:&quot;Тайм-менеджмент&quot;},{&quot;opp&quot;:&quot;5774&quot;,&quot;disc&quot;:&quot;Медицинская статистика и доказательная медицина&quot;},{&quot;opp&quot;:&quot;5774&quot;,&quot;disc&quot;:&quot;Экономика в здравоохранении&quot;},{&quot;opp&quot;:&quot;6068&quot;,&quot;disc&quot;:&quot;Управление проектами&quot;},{&quot;opp&quot;:&quot;6068&quot;,&quot;disc&quot;:&quot;Тайм-менеджмент&quot;},{&quot;opp&quot;:&quot;6068&quot;,&quot;disc&quot;:&quot;Медицинская статистика и доказательная медицина&quot;},{&quot;opp&quot;:&quot;6068&quot;,&quot;disc&quot;:&quot;Экономика в здравоохранении&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; </uf_teachinglevel>
+			<uf_teachingqual>экономист по бухгалтерскому учету и аудиту</uf_teachingqual>
+			<uf_employeequalifica>Экономист</uf_employeequalifica>
+			<uf_degree>доктор экономических наук</uf_degree>
+			<uf_academstat>доцент</uf_academstat>
+			<uf_genexperience>264</uf_genexperience>
+			<uf_specexperience>216</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>100</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия (36 ч., 17.02.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023); </uf_profdevelopment>
+			<uf_fio>Кудрявцева Елена Владимировна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО НМСИ ДЕНТМАСТЕР (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Анатомия и физиология человека&quot;},{&quot;opp&quot;:&quot;5997&quot;,&quot;disc&quot;:&quot;Итоговая аттестация&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Среднее профессиональное образование; </uf_teachinglevel>
+			<uf_teachingqual>Медицинская сестра</uf_teachingqual>
+			<uf_employeequalifica>Сестринское дело; </uf_employeequalifica>
+			<uf_degree>Отсутствует </uf_degree>
+			<uf_academstat>Отсутствует </uf_academstat>
+			<uf_genexperience>36</uf_genexperience>
+			<uf_specexperience>36</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>101</id>
+			<uf_qualification> «Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023); «Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); Неотложная помощь в амбулаторной стоматологической практике, эффективная, комфортная и безопасная анестезия (36 ч., 17.02.2023); Организация инклюзивного образования инвалидов и лиц с ограниченными возможностями здоровья в образовательной организации (54 ч, 05.05.2023);</uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);</uf_profdevelopment>
+			<uf_fio>Дробышев Василий Федорович</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО НМСИ ДЕНТМАСТЕР (на условиях внешнего совместительства)</uf_post>
+			<uf_teachingdisciplin>[{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Зуботехническое материаловедение&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Эстетическое моделирование&quot;},{&quot;opp&quot;:&quot;5998&quot;,&quot;disc&quot;:&quot;Итоговая аттестация&quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Среднее профессиональное образование</uf_teachinglevel>
+			<uf_teachingqual>Зубной техник</uf_teachingqual>
+			<uf_employeequalifica>Стоматология ортопедическая</uf_employeequalifica>
+			<uf_degree>Отсутствует</uf_degree>
+			<uf_academstat>Отсутствует </uf_academstat>
+			<uf_genexperience>60</uf_genexperience>
+			<uf_specexperience>60</uf_specexperience>
+			<uf_teachingop />
+			<uf_medexperience>0</uf_medexperience>
+			<uf_childexperience>0</uf_childexperience>
+			<uf_email>Отсутствует</uf_email>
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>0</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone>Отсутствует</uf_phone>
+			<uf_specexperience_b />
+			<uf_genexperience_b />
+		</item>
+		<item>
+			<id>102</id>
+			<uf_qualification>«Навыки оказания первой помощи обучающимся педагогическим работником образовательной организации» (36 ч., 03.03.2023);
+«Обеспечение функционирования электронной информационно-образовательной среды педагогическим работником образовательной организации» (72 ч, 20.03.2023); 
+«Профессионально-педагогическая компетентность современного преподавателя» (36 ч., 16.09.2022).; </uf_qualification>
+			<uf_profdevelopment>«Педагогическое образование: преподавание и технологизация образовательного процесса при реализации основных и дополнительных образовательных программ стоматологического образования согласно требованиям ФГОС, профессиональных стандартов» (с присвоением квалификации «Преподаватель профессионального образования», 648 ч., 15.02.2023);
+Дополнительное профессиональное образование  «Стоматология детская» (с присвоением квалификации «врач-стоматолог детский», 504 ч., 12.09.2008</uf_profdevelopment>
+			<uf_fio>Бурдина Елена Борисовна</uf_fio>
+			<uf_post>Преподаватель ЧОУ ВО «НМСИ ДЕНТМАСТЕР»</uf_post>
+			<uf_teachingdisciplin>[{&amp;quot;opp&amp;quot;:&amp;quot;5771&amp;quot;,&amp;quot;disc&amp;quot;:&amp;quot;Производственная &amp;#40;клиническая&amp;#41; практика &amp;#40;базовая часть&amp;#41;&amp;quot;}]</uf_teachingdisciplin>
+			<uf_teachinglevel>Высшее образование-специалитет; Интернатура «стоматология»;</uf_teachinglevel>
+			<uf_teachingqual>Врач-стоматолог; Врач-стоматолог;</uf_teachingqual>
+			<uf_employeequalifica />
+			<uf_degree />
+			<uf_academstat />
+			<uf_genexperience />
+			<uf_specexperience />
+			<uf_teachingop />
+			<uf_medexperience />
+			<uf_childexperience />
+			<uf_email />
+			<uf_pps>1</uf_pps>
+			<uf_nir>0</uf_nir>
+			<uf_active>1</uf_active>
+			<uf_hi_staff>0</uf_hi_staff>
+			<uf_hi_zam>0</uf_hi_zam>
+			<uf_personal_url />
+			<uf_phone />
+			<uf_specexperience_b>01.01.2002</uf_specexperience_b>
+			<uf_genexperience_b>01.09.2021</uf_genexperience_b>
+		</item>
+	</items>
+</hiblock>

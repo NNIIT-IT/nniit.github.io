@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Ординатору", 
+		"/student/resident/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Расписание ординатору", 
+		"/student/schedule-resident/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Аспиранту", 
+		"/student/postgraduate/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Расписание аспиранту", 
+		"/student/schedule-phd/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Успеваемость", 
+		"/student/grade/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Портфолио", 
+		"/student/portfolio/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Полезные ссылки", 
+		"/student/useful/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
